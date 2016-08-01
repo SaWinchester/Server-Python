@@ -49,6 +49,10 @@ def respondendo_pergunta(texto):
 		return "Sim eu sei responder perguntas"
 	return "Já já respondo perguntas"
 
+@app.route('/', methods=['GET'])
+def primera_conexao():
+	return 'Hello...'
+
 @app.route('/primeiraconexao', methods=['GET'])
 def primera_conexao():
 	return 'Olá, me chamo Job. É estou aqui para conversar com você.\n' + 'Você pode me pedir: Piadas, Cantadas, Ditados. É so escrever que respondo...😎'
