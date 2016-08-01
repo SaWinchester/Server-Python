@@ -1,7 +1,7 @@
 #coding: utf-8
 
 from flask import Flask, Response, request
-import json, pickle, cv2, textwrap, random, json, urllib2
+import json, pickle,  textwrap, random, json, urllib2
 from itertools import chain, islice, izip
 import temp_api
 app = Flask(__name__)
