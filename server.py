@@ -1,8 +1,7 @@
 #coding: utf-8
 
 from flask import Flask, Response, request
-import json, pickle,  textwrap, random, json, urllib2
-from itertools import chain, islice, izip
+import json, random, urllib2
 import temp_api
 app = Flask(__name__)
 
@@ -48,10 +47,6 @@ def respondendo_pergunta(texto):
 	if texto.find("Você responde perguntas"):
 		return "Sim eu sei responder perguntas"
 	return "Já já respondo perguntas"
-
-@app.route('/', methods=['GET'])
-def primera_conexao():
-	return 'Hello...'
 
 @app.route('/primeiraconexao', methods=['GET'])
 def primera_conexao():
