@@ -15,7 +15,7 @@ def index():
 
 @app.route('/primeiraconexao', methods=['GET'])
 def primera_conexao():
-	return responde_mensagem('Conectar')
+	return responde_mensagem('CONECTAR')
 
 @app.route('/mensagem',methods=['PUT'])
 def teste():
