@@ -11,5 +11,5 @@ setup(
     version='0.0.1',
     author='Samuel Gonçalves e Rai Sena',
     author_email='samukasaww@live.com',
-    install_requires=['Flask'],
+    install_requires=['Flask','aiml'],
 )

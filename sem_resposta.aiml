@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+<category>
+    <pattern>*</pattern>
+    <template>
+    <random>
+        <li>Desculpe! ainda estou aprendendo, tenho algum conhecimento sobre Inteligência Artificial. Demais informações ainda não estão disponiveis em minha base de dados.</li>
+        <li>Ops! Não entendi você, poderia repetir de uma forma mais clara?</li>
+        <li>Legal! poderia me explicar melhor, não entendi o que você digitou.</li>
+		
+    </random>
+    </template>
+    </category>
+</aiml>
