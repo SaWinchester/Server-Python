@@ -1,9 +1,9 @@
 #coding: utf-8
 
 from flask import Flask, Response, request
-#from jobaiml import responde_mensagem
-#import json
-#import temp_api
+from jobaiml import responde_mensagem
+import json
+import temp_api
 app = Flask(__name__)
 
 tempo = "TEMPO EM:"
