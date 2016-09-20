@@ -3,7 +3,7 @@
 from flask import Flask, Response, request
 from jobaiml import responde_mensagem
 import json
-import temp_api, os
+import temp_api
 app = Flask(__name__)
 
 tempo = "TEMPO EM:"
@@ -11,8 +11,7 @@ tempo = "TEMPO EM:"
 '''Obtem a primeira conexão com o servidor e retorna mensagem padrão do Aplicativo'''
 @app.route('/', methods=['GET'])
 def index():
-	s = os.listdir(os.path.dirname(__file__))
-	return str(s);
+	return "App de Conversa baseado em AIML..."
 
 @app.route('/primeiraconexao', methods=['GET'])
 def primera_conexao():
