@@ -1,15 +1,19 @@
 #coding: utf-8
 
 from flask import Flask, Response, request
-from jobaiml import responde_mensagem
-import json
-import temp_api
+#from jobaiml import responde_mensagem
+#import json
+#import temp_api
 app = Flask(__name__)
 
 tempo = "TEMPO EM:"
 
 '''Obtem a primeira conexão com o servidor e retorna mensagem padrão do Aplicativo'''
-@app.route('/primeiraconexao', methods=['GET'])
+@app.route('/', methods=['GET'])
+def primera_conexao():
+	return "responde_mensagem('Conectar')"
+
+'''@app.route('/primeiraconexao', methods=['GET'])
 def primera_conexao():
 	return responde_mensagem('Conectar')
 
@@ -26,7 +30,7 @@ def teste():
 		raise e
 	
 	return 'Ops, houve um erro no servidor. Em breve estaremos funcionando novamente.'
-
+'''
 def run(host='0.0.0.0',port=80,debug=False):
 	app.debug = debug
 	app.run(host=host, port=port)
