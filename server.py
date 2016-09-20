@@ -10,7 +10,7 @@ tempo = "TEMPO EM:"
 
 '''Obtem a primeira conexão com o servidor e retorna mensagem padrão do Aplicativo'''
 @app.route('/', methods=['GET'])
-def primera_conexao():
+def index():
 	return "responde_mensagem('Conectar')"
 
 @app.route('/primeiraconexao', methods=['GET'])
