@@ -1,12 +1,9 @@
 # coding: utf-8
 import aiml
 ai = aiml.Kernel() # inicialização
-#ai.learn('*.aiml') # lê o arquivo principal da AIML e faz referências aos outros
-#ai.respond('s') # faz com que os outros arquivos da AIML sejam carregados
+ai.learn('*.aiml') # lê o arquivo principal da AIML e faz referências aos outros
 
 def responde_mensagem(mensagem):
-	ai.bootstrap(learnFiles = "std-startup.xml", commands = "load aiml b")
-	ai.learn('*.aiml') # lê o arquivo principal da AIML e faz referências aos outros
 	print mensagem
 	resposta = ai.respond(mensagem)
 	print resposta
