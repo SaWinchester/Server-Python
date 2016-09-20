@@ -11,7 +11,7 @@ tempo = "TEMPO EM:"
 '''Obtem a primeira conexão com o servidor e retorna mensagem padrão do Aplicativo'''
 @app.route('/', methods=['GET'])
 def index():
-	return "responde_mensagem('Conectar')"
+	return "App de Conversa baseado em AIML..."
 
 @app.route('/primeiraconexao', methods=['GET'])
 def primera_conexao():
