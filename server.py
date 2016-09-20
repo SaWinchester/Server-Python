@@ -13,7 +13,7 @@ tempo = "TEMPO EM:"
 def primera_conexao():
 	return "responde_mensagem('Conectar')"
 
-'''@app.route('/primeiraconexao', methods=['GET'])
+@app.route('/primeiraconexao', methods=['GET'])
 def primera_conexao():
 	return responde_mensagem('Conectar')
 
@@ -30,7 +30,7 @@ def teste():
 		raise e
 	
 	return 'Ops, houve um erro no servidor. Em breve estaremos funcionando novamente.'
-'''
+
 def run(host='0.0.0.0',port=80,debug=False):
 	app.debug = debug
 	app.run(host=host, port=port)
