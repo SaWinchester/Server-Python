@@ -15,7 +15,7 @@ def index():
 
 @app.route('/primeiraconexao', methods=['GET'])
 def primera_conexao():
-	return responde_mensagem('CONECTAR')
+	return "Olá, me chamo Job. É estou aqui para conversar com você. Você pode me pedir: Piadas, Cantadas, Ditados. É so escrever que respondo...😎"
 
 @app.route('/mensagem',methods=['PUT'])
 def teste():
