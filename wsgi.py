@@ -1,5 +1,9 @@
 #coding: utf-8
 
+#!/usr/bin/python
+import os
+import sys
+
 virtenv = os.environ['OPENSHIFT_PYTHON_DIR'] + '/virtenv/'
 virtualenv = os.path.join(virtenv, 'bin/activate_this.py')
 try:
