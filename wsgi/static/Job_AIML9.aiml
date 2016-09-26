@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+<!--  Esté é Job - Uma chatterbot brasileiro                    -->
+<!--  Esta na versão 0.0.2 beta de 02 de Agosto de 2016         -->
+<!--  Desenvolvido por Samuel Gonçalves Cunha e Rai de Sena Gonçalves -->
+
+	<category>
+		<pattern>Piadas</pattern>
+		<template>
+			<random>
+			    <li>Oi! Como vai você?</li>
+			    <li>Oi!</li>
+			</random>
+			<srai>oi</srai>
+		</template>
+    </category>
+	
+	<category>
+		<pattern>MALANDRAMENTE</pattern>
+		<template>
+			<random>
+			    <li>Ai safada!
+					Na hora de ganhar madeirada
+					A menina meteu o pé pra casa
+					E mandou um recadinho pra mim
+					(Nós se vê por aí)</li>
+			    <li>Fez cara de carente
+					Envolvida com a tropa
+					Começou a seduzir</li>
+				<li>A menina inocente
+					Se envolveu com a gente
+					Só pra poder curtir</li>
+			</random>
+		</template>
+    </category>
+
+	<category>
+		<pattern>CANTADAS</pattern>
+		<template>
+			<random>
+			    <li>Sua perna esquerda é o Natal e a direita é a Páscoa. Posso entrar entre os feriados?</li>
+				<li>Quer sair prá comer uma pizza e transar? O quê???!!! Você não gosta de pizza?</li>
+				<li>Você acredita em amor à primeira vista, ou devo passar por aqui mais uma vez?</li>
+				<li>Já experimentou aquelas camisinhas espinhosas?</li>
+				<li>Moça, se a senhora já perdeu a virgindade, posso ficar com a caixa que veio com ela?</li>
+				<li>Quer ser o meu buffet de amor? - Daí eu posso te deitar na mesa e pegar o que eu quiser?</li>
+				<li>Vamos pra minha casa fazer as coisas que eu já falei pra todo mundo que a gente fez?</li>
+				<li>Não te dóem as pernas de fugir dos meus sonhos todas as noites?</li>
+				<li>Essa roupa ficaria ótima toda amassada no chão do meu quarto amanhã de manhã.</li>
+				<li>Meu nome é $me . Isso é pra você saber o que gritar na hora.</li>
+				<li>Bonito sapato. Quer transar? </li>
+				<li>Todas essas curvas, e eu sem freio nenhum... </li>
+				<li>Se eu te dissesse que tem um lindo corpo, você o apertaria junto ao meu?</li>
+				<li>Eu gosto de cada osso em seu corpo, especialmente o meu. </li>
+				<li>Sabe o que ficaria bem em você? Eu.</li>
+				<li>Licença, você vai pegar um ônibus? - Não, Porque? - Porque você está no ponto...</li>
+				<li>Oi. Eu transo no primeiro encontro... e você?</li>
+				<li>Dizem que o amor é uma coisa maravilhosa. Vamos fazer um pouco e descobrir...</li>
+				<li>Posso fazer cosquinhas na sua barriga por dentro?</li>
+				<li>Eu tenho saudade do meu ursinho. Quer dormir comigo?</li>
+				<li>Bonito vestido, posso falar contigo fora dele?</li>
+				<li>Esqueça! Brincar de médico é para crianças! Vamos brincar de ginecologista.</li>
+				<li>Sexo mata... quer morrer feliz? </li>
+				<li>Eu procurei "Deusa" no Aurélio, e teu nome tava incluído.</li>
+				<li>Oi! Posso te pagar um carro?</li>
+				<li>Eu tive sexo com alguém noite passada. Foi você?</li>
+				<li>Oi, como você quer ser acordada amanhã, quer que eu te ligue ou que eu te cutuque?</li>
+				<li>Rezei 1/3 para descobrir 1/2 de te levar para 1/4.</li>
+				<li>Fine shoes. Do you wanna fuck?</li>
+				<li>Essa sua calça é espacial? Não. Por que? Sua bunda é de outro mundo!</li>
+				<li>Está vendo aquele meu amigo ali? Ele quer saber se você quer ficar comigo.</li>
+				<li>Meu Deus, isso não é uma bunda, é uma usina de bosta!</li>
+				<li>Se você fosse um sanduíche teu nome ia ser X-Princesa.</li>
+				<li>Sou um pokemon, moro numa pokebola, se colokar ela no morro, rola ou não rola ?!</li>
+				<li>Eu tenho dois ursos, um se chama tigo e o outro se chama migo eu fico com tigo e voce fica com migo, que tal?</li>
+				<li>Me ajude com algumas contas aqui? Somamos eu e você, subtraímos nossas roupas, dividimos suas pernas e multiplicamos a especie, eae?</li>
+				<li>Eu não sou casas bahia mas minha dedicação é total a você!</li>
+				<li>Seu pai é agricultor? Porque você e um xuxuzinho!</li>
+				<li>Posso ficar com a menina mais linda do carnaval? {Se ela dizer sim, agarra, senão você quebra ela} E com você eu posso?</li>
+				<li>O que falta pra eu te beijar? Uma resposta sua ou uma atitude minha?</li>
+				<li>Me chama de iPod e Touch Me.</li>
+				<li>Que pernas lindas, que horas elas abrem?</li>
+				<li>Você não é poker, mas eu estou all in.</li>
+				<li>Tire o anel da latinha e grude na testa, peça pra uma menina tirar, quando ela tirar você diz: “tssssss agora vai ter que tomar!”</li>
+				<li>Eu quero derreter na tua boca, não na tua mão. </li>
+				<li>Me empresta uma ficha? - Pra quê? - Quero ligar pra minha mãe e dizer que acabei de encontrar a </li>
+				<li>mulher dos meus sonhos.</li>
+				<li>O teu pai é ladrão? - Não.- Então como é que ele roubou o brilho das estrelas e colocou nos seus olhos? (Esteja preparado no caso de ela responder "sim".) </li>
+				<li>Você é tão quente que chega a derreter o plástico da minha cueca. </li>
+				<li>Quer ser o meu buffet de amor? Daí eu posso te deitar na mesa e pegar o que eu quiser? </li>
+				<li>Vamos pra minha casa fazer as coisas que eu já falei pra todo mundo que a gente fez. </li>
+				<li>A palavra do dia é "pernas." Vamos pra minha casa espalhar a palavra. </li>
+				<li>8. Não te dóem as pernas de fugir dos meus sonhos todas as noites? </li>
+				<li>Essa roupa ficaria ótima toda amassada no chão do meu quarto amanhã de manhã. </li>
+				<li>Meu nome é [seu nome]. Isso é pra você saber o que gritar na hora. </li>
+				<li>Meu nome é [seu nome], mas pode me chamar de "amante". </li>
+				<li>Bonito sapato. Quer transar? </li>
+				<li>Posso te dar uma cantada? </li>
+				<li>Sabe, se a gente cortar os teus braços, vai ficar igual à Vênus de Milo. (Fique olhando para a marca da saia dela. Quando ela disser, "O que você está fazendo?", responda Vendo se você foi feita no céu. </li>
+				<li>Todas essas curvas, e eu sem freio nenhum... </li>
+				<li>Se eu te dissesse que tem um lindo corpo, você o apertaria junto ao meu? </li>
+				<li>Me fode se eu estiver errado, mas você não quer me beijar? </li>
+				<li>Eu gosto de cada osso em seu corpo, especialmente o meu. </li>
+				<li>Herdar oitenta milhões não significa muito quando se tem um coração fraco. </li>
+				<li>Tá quente aqui ou é só você? </li>
+				<li>Pode me informar um caminho? - Pra onde? - Pro seu coração. </li>
+				<li>Quer casar comigo e ser a mãe dos meus filhos? (efeitos colaterais perigosos: cuidado!) </li>
+				<li>Vou te chupar tão forte que você vai ter que tirar os lencóis da sua bunda quando eu terminar. </li>
+				<li>Sabe o que ficaria bem em você? Eu. </li>
+				<li>Eu tenho saudade do meu ursinho. Quer dormir comigo? </li>
+				<li>E então... Como estou indo? </li>
+				<li>O que você acha de nós dois irmos para minha casa tirar essas roupas molhadas? </li>
+				<li>Você quer Gin e platônico, ou prefere Scotch e sofá? </li>
+				<li>A primeira vez é sempre a mais difícil. </li>
+				<li>Com licença, você toma pílulas? </li>
+				<li>Oi. Você engole? </li>
+				<li>Puxa! Eles são de verdade? </li>
+				<li>Ô gatinha, tá a fim de ganhar 50 conto fácil? </li>
+				<li>Bonito vestido, posso falar contigo fora dele? </li>
+				<li>Quer foder como coelhos? </li>
+				<li>Bond. James Bond. </li>
+				<li>Esqueça! Brincar de médico é para crianças! Vamos brincar de ginecologista. </li>
+				<li>Quer brincar de adivinhação? Você senta na minha cara e eu tento adivinhar o teu peso. </li>
+				<li>Sexo mata... quer morrer feliz? </li>
+				<li>Eu procurei "deusa" no Aurélio, e teu nome tava incluído. </li>
+				<li>Eu tive um péssimo dia e ver uma garota sorrir sempre me faz melhorar. Então, você pode sorrir para mim? </li>
+				<li>Oi! Posso te pagar um carro? </li>
+				<li>Eu tive sexo com alguém noite passada. Foi você? </li>
+				<li>Você dá a bunda? </li>
+				<li>É um relógio no seu bolso, ou só está feliz em me ver? </li>
+				<li>Tem um pouco de Alemão/Espanhol/Italiano/etc em você? Hmmm...não.... Bem, quer um pouco? </li>
+				<li>O que você faria se eu te beijasse agora? </li>
+				<li>Desculpa, mas eu já tô indo pra casa me masturbar e pensei se você não se importaria se eu fantasiasse com você? </li>
+				<li>Estou bêbado. </li>
+				<li>Moça, se a senhora já perdeu a virgindade, posso ficar com a caixa que veio com ela? </li>
+				<li>Eu acho que devemos transar no gramado da frente como duas doninhas enlouquecidas AGORA! </li>
+				<li>Sabe, eu gostaria de te foder até o cérebro, mas parece que alguém chegou na minha frente. </li>
+				<li>Já experimentou aquelas camisinhas espinhosas? </li>
+				<li>Ei, alguém peidou. Vamos sair daqui. </li>
+				<li>Você tem os dentes mais brancos que eu já vi. </li>
+				<li>Você dorme no seu estômago ? - Não. - Posso? </li>
+				<li>Com licença, mas qual é a cantada que funciona melhor com você? </li>
+				<li>Com licença. Você quer transar ou devo me desculpar? </li>
+				<li>Você acredita em amor à primeira vista, ou devo passar por aqui mais uma vez? </li>
+				<li>Quer sair prá comer uma pizza e transar? O quê? Você não gosta de pizza? </li>
+				<li>Sua perna esquerda é o Natal e a direita é a Páscoa. Posso entrar entre os feriados? </li>
+				<li>Posso fazer cosquinhas na sua barriga por dentro? </li>
+				<li>Dizem que o amor é uma coisa maravilhosa. Vamos fazer um pouco e descobrir... </li>
+				<li>Oi. Eu transo no primeiro encontro... e você? </li>
+				<li>Oi, o que faz uma garota como você num lugar legal desses?</li>
+			</random>
+		</template>
+    </category>
+	<category>
+		<pattern>CONTE UMA CANTADA</pattern>
+		<template>
+			<random>
+			    <li>Sua perna esquerda é o Natal e a direita é a Páscoa. Posso entrar entre os feriados?</li>
+				<li>Quer sair prá comer uma pizza e transar? O quê???!!! Você não gosta de pizza?</li>
+				<li>Você acredita em amor à primeira vista, ou devo passar por aqui mais uma vez?</li>
+				<li>Já experimentou aquelas camisinhas espinhosas?</li>
+				<li>Moça, se a senhora já perdeu a virgindade, posso ficar com a caixa que veio com ela?</li>
+				<li>Quer ser o meu buffet de amor? - Daí eu posso te deitar na mesa e pegar o que eu quiser?</li>
+				<li>Vamos pra minha casa fazer as coisas que eu já falei pra todo mundo que a gente fez?</li>
+				<li>Não te dóem as pernas de fugir dos meus sonhos todas as noites?</li>
+				<li>Essa roupa ficaria ótima toda amassada no chão do meu quarto amanhã de manhã.</li>
+				<li>Meu nome é $me . Isso é pra você saber o que gritar na hora.</li>
+				<li>Bonito sapato. Quer transar? </li>
+				<li>Todas essas curvas, e eu sem freio nenhum... </li>
+				<li>Se eu te dissesse que tem um lindo corpo, você o apertaria junto ao meu?</li>
+				<li>Eu gosto de cada osso em seu corpo, especialmente o meu. </li>
+				<li>Sabe o que ficaria bem em você? Eu.</li>
+				<li>Licença, você vai pegar um ônibus? - Não, Porque? - Porque você está no ponto...</li>
+				<li>Oi. Eu transo no primeiro encontro... e você?</li>
+				<li>Dizem que o amor é uma coisa maravilhosa. Vamos fazer um pouco e descobrir...</li>
+				<li>Posso fazer cosquinhas na sua barriga por dentro?</li>
+				<li>Eu tenho saudade do meu ursinho. Quer dormir comigo?</li>
+				<li>Bonito vestido, posso falar contigo fora dele?</li>
+				<li>Esqueça! Brincar de médico é para crianças! Vamos brincar de ginecologista.</li>
+				<li>Sexo mata... quer morrer feliz? </li>
+				<li>Eu procurei "Deusa" no Aurélio, e teu nome tava incluído.</li>
+				<li>Oi! Posso te pagar um carro?</li>
+				<li>Eu tive sexo com alguém noite passada. Foi você?</li>
+				<li>Oi, como você quer ser acordada amanhã, quer que eu te ligue ou que eu te cutuque?</li>
+				<li>Rezei 1/3 para descobrir 1/2 de te levar para 1/4.</li>
+				<li>Fine shoes. Do you wanna fuck?</li>
+				<li>Essa sua calça é espacial? Não. Por que? Sua bunda é de outro mundo!</li>
+				<li>Está vendo aquele meu amigo ali? Ele quer saber se você quer ficar comigo.</li>
+				<li>Meu Deus, isso não é uma bunda, é uma usina de bosta!</li>
+				<li>Se você fosse um sanduíche teu nome ia ser X-Princesa.</li>
+				<li>Sou um pokemon, moro numa pokebola, se colokar ela no morro, rola ou não rola ?!</li>
+				<li>Eu tenho dois ursos, um se chama tigo e o outro se chama migo eu fico com tigo e voce fica com migo, que tal?</li>
+				<li>Me ajude com algumas contas aqui? Somamos eu e você, subtraímos nossas roupas, dividimos suas pernas e multiplicamos a especie, eae?</li>
+				<li>Eu não sou casas bahia mas minha dedicação é total a você!</li>
+				<li>Seu pai é agricultor? Porque você e um xuxuzinho!</li>
+				<li>Posso ficar com a menina mais linda do carnaval? {Se ela dizer sim, agarra, senão você quebra ela} E com você eu posso?</li>
+				<li>O que falta pra eu te beijar? Uma resposta sua ou uma atitude minha?</li>
+				<li>Me chama de iPod e Touch Me.</li>
+				<li>Que pernas lindas, que horas elas abrem?</li>
+				<li>Você não é poker, mas eu estou all in.</li>
+				<li>Tire o anel da latinha e grude na testa, peça pra uma menina tirar, quando ela tirar você diz: “tssssss agora vai ter que tomar!”</li>
+				<li>Eu quero derreter na tua boca, não na tua mão. </li>
+				<li>Me empresta uma ficha? - Pra quê? - Quero ligar pra minha mãe e dizer que acabei de encontrar a </li>
+				<li>mulher dos meus sonhos.</li>
+				<li>O teu pai é ladrão? - Não.- Então como é que ele roubou o brilho das estrelas e colocou nos seus olhos? (Esteja preparado no caso de ela responder "sim".) </li>
+				<li>Você é tão quente que chega a derreter o plástico da minha cueca. </li>
+				<li>Quer ser o meu buffet de amor? Daí eu posso te deitar na mesa e pegar o que eu quiser? </li>
+				<li>Vamos pra minha casa fazer as coisas que eu já falei pra todo mundo que a gente fez. </li>
+				<li>A palavra do dia é "pernas." Vamos pra minha casa espalhar a palavra. </li>
+				<li>8. Não te dóem as pernas de fugir dos meus sonhos todas as noites? </li>
+				<li>Essa roupa ficaria ótima toda amassada no chão do meu quarto amanhã de manhã. </li>
+				<li>Meu nome é [seu nome]. Isso é pra você saber o que gritar na hora. </li>
+				<li>Meu nome é [seu nome], mas pode me chamar de "amante". </li>
+				<li>Bonito sapato. Quer transar? </li>
+				<li>Posso te dar uma cantada? </li>
+				<li>Sabe, se a gente cortar os teus braços, vai ficar igual à Vênus de Milo. (Fique olhando para a marca da saia dela. Quando ela disser, "O que você está fazendo?", responda Vendo se você foi feita no céu. </li>
+				<li>Todas essas curvas, e eu sem freio nenhum... </li>
+				<li>Se eu te dissesse que tem um lindo corpo, você o apertaria junto ao meu? </li>
+				<li>Me fode se eu estiver errado, mas você não quer me beijar? </li>
+				<li>Eu gosto de cada osso em seu corpo, especialmente o meu. </li>
+				<li>Herdar oitenta milhões não significa muito quando se tem um coração fraco. </li>
+				<li>Tá quente aqui ou é só você? </li>
+				<li>Pode me informar um caminho? - Pra onde? - Pro seu coração. </li>
+				<li>Quer casar comigo e ser a mãe dos meus filhos? (efeitos colaterais perigosos: cuidado!) </li>
+				<li>Vou te chupar tão forte que você vai ter que tirar os lencóis da sua bunda quando eu terminar. </li>
+				<li>Sabe o que ficaria bem em você? Eu. </li>
+				<li>Eu tenho saudade do meu ursinho. Quer dormir comigo? </li>
+				<li>E então... Como estou indo? </li>
+				<li>O que você acha de nós dois irmos para minha casa tirar essas roupas molhadas? </li>
+				<li>Você quer Gin e platônico, ou prefere Scotch e sofá? </li>
+				<li>A primeira vez é sempre a mais difícil. </li>
+				<li>Com licença, você toma pílulas? </li>
+				<li>Oi. Você engole? </li>
+				<li>Puxa! Eles são de verdade? </li>
+				<li>Ô gatinha, tá a fim de ganhar 50 conto fácil? </li>
+				<li>Bonito vestido, posso falar contigo fora dele? </li>
+				<li>Quer foder como coelhos? </li>
+				<li>Bond. James Bond. </li>
+				<li>Esqueça! Brincar de médico é para crianças! Vamos brincar de ginecologista. </li>
+				<li>Quer brincar de adivinhação? Você senta na minha cara e eu tento adivinhar o teu peso. </li>
+				<li>Sexo mata... quer morrer feliz? </li>
+				<li>Eu procurei "deusa" no Aurélio, e teu nome tava incluído. </li>
+				<li>Eu tive um péssimo dia e ver uma garota sorrir sempre me faz melhorar. Então, você pode sorrir para mim? </li>
+				<li>Oi! Posso te pagar um carro? </li>
+				<li>Eu tive sexo com alguém noite passada. Foi você? </li>
+				<li>Você dá a bunda? </li>
+				<li>É um relógio no seu bolso, ou só está feliz em me ver? </li>
+				<li>Tem um pouco de Alemão/Espanhol/Italiano/etc em você? Hmmm...não.... Bem, quer um pouco? </li>
+				<li>O que você faria se eu te beijasse agora? </li>
+				<li>Desculpa, mas eu já tô indo pra casa me masturbar e pensei se você não se importaria se eu fantasiasse com você? </li>
+				<li>Estou bêbado. </li>
+				<li>Moça, se a senhora já perdeu a virgindade, posso ficar com a caixa que veio com ela? </li>
+				<li>Eu acho que devemos transar no gramado da frente como duas doninhas enlouquecidas AGORA! </li>
+				<li>Sabe, eu gostaria de te foder até o cérebro, mas parece que alguém chegou na minha frente. </li>
+				<li>Já experimentou aquelas camisinhas espinhosas? </li>
+				<li>Ei, alguém peidou. Vamos sair daqui. </li>
+				<li>Você tem os dentes mais brancos que eu já vi. </li>
+				<li>Você dorme no seu estômago ? - Não. - Posso? </li>
+				<li>Com licença, mas qual é a cantada que funciona melhor com você? </li>
+				<li>Com licença. Você quer transar ou devo me desculpar? </li>
+				<li>Você acredita em amor à primeira vista, ou devo passar por aqui mais uma vez? </li>
+				<li>Quer sair prá comer uma pizza e transar? O quê? Você não gosta de pizza? </li>
+				<li>Sua perna esquerda é o Natal e a direita é a Páscoa. Posso entrar entre os feriados? </li>
+				<li>Posso fazer cosquinhas na sua barriga por dentro? </li>
+				<li>Dizem que o amor é uma coisa maravilhosa. Vamos fazer um pouco e descobrir... </li>
+				<li>Oi. Eu transo no primeiro encontro... e você? </li>
+				<li>Oi, o que faz uma garota como você num lugar legal desses?</li>
+			</random>
+		</template>
+    </category>
+
+	<category>
+		<pattern>DITADOS</pattern>
+		<template>
+			<random>
+			    <li>Em terra de olho quem tem um cego ... Errei !!!</li>
+				<li>Em terra de cego quem tem um olho é caolho !!!</li>
+				<li>Quem espera, senta e cansa.</li>
+				<li>Quem dá aos pobres, tem que comprar a camisinha .</li>
+				<li>Escreveu não leu ... analfabeto.</li>
+				<li>Quem ri por último ... ri atrasado ou não entedeu a piada !</li>
+				<li>A união faz a .... çúcar</li>
+				<li>Em rio que tem piranha jacaré usa camisinha !!!</li>
+				<li>Devagar ... chega-se atrasado.</li>
+				<li>Quem cedo madruga, não pega ônibus lotado! </li>
+				<li>Deus iscrévi sértu... mas eu não! </li>
+				<li>Quem é vivo, sempre aparece... nas horas mais impróprias!</li>
+				<li>Prevenir é melhor que... ser pego de surpresa! </li>
+				<li>"Desgraça pouca é bobagem"... é bobagem! </li>
+				<li>Cautela e caldo de galinha não faz mal à ninguém... exceto à galinha! </li>
+				<li>Quem dá aos pobres... adeus! </li>
+				<li>Em rio que tem piranha... leve camisinha!</li>
+				<li>Quem tudo quer... tudo pede! </li>
+				<li>Quando um não quer... o outro insiste!</li>
+				<li>Água mole em pedra dura, tanto bate... até que cansa! </li>
+				<li>Um homem prevenido vale por dois... mas quem compra?</li>
+				<li>Roupa suja se lava... na máquina! </li>
+				<li>Em casa de ferreiro o espeto... é prá fazer churrasco! </li>
+				<li>Mais vale um na mão do que dois... no sutiã! </li>
+				<li>O que os olhos não veem, o coração... nem se fala! </li>
+				<li>De pensar, morreu um burro... e aposto que ainda não entendeu! </li>
+				<li>Onde há fumaça... há sempre um chato pedindo para apagar o cigarro!</li>
+				<li>De médico e de louco, todo mundo... já está com o saco cheio! </li>
+				<li>Macaco velho não mete... </li>
+				<li>Quem o feio ama... namora em casa! </li>
+				<li>Para um bom entendedor... meia pala bas! </li>
+				<li>Mais vale um cachorro amigo... do que um que nos morde! </li>
+				<li>Quem nunca comeu melado... nunca vai ter cárie! </li>
+				<li>Quem não tem cão... não gasta dinheiro com veterinário! </li>
+				<li>Nunca deixe para amanhã... o que você pode fazer depois de amanhã! </li>
+				<li>Águas passadas... não dão cólera! </li>
+				<li>Devagar se vai ao longe... mas demora um tempão! </li>
+				<li>Depois da tempestade... o trânsito pára! </li>
+				<li>Em terra de cego, quem tem um olio, merda... errei!</li>
+				<li>A fé remove montanhas, a dinamite então, nem se fala!</li>
+				<li>A primeira impressão é a que fica, se o cartucho for novo!</li>
+				<li>Um dia é da caça, no outro o tiro falha!</li>
+				<li>A esperança e a sogra são as últimas que morrem!</li>
+				<li>Quem com ferro fere, vai preso!</li>
+				<li>Quem ri por último... ou é surdo ou retardado!</li>
+				<li>Antes tarde do que mais tarde.</li>
+				<li>Em casa de ferreiro, todo mundo leva ferro.</li>
+				<li>Há males que vêm para o bem... mas a maioria vêm para o mal mesmo.</li>
+				<li>O pior cego é aquele que não quer ver, não quer comer, não quer trabalhar, enfim, não quer fazer porra nenhuma!!</li>
+				<li>Os últimos serão desclassificados.</li>
+				<li>Quem cedo madruga, fica com sono o dia todo.</li>
+				<li>Quem não arrisca é porque não tem caneta.</li>
+				<li>Quem não deve, não deve.</li>
+				<li>Em terra de cego, quem tem um olho vê cada coisa...</li>
+				<li>De onde menos se espera é que não sai porra nenhuma!</li>
+				<li>Os últimos serão os primeiros... a reclamar.</li>
+				<li>Quem dá aos pobres nunca sobe na vida!</li>
+				<li>Quem é vivo, sempre aparece... nas horas mais impróprias!</li>
+				<li>"Desgraça pouca é bobagem"... é bobagem!</li>
+				<li>"As três melhores coisas no mundo: - Dinheiro; - Mulher; - Bicho de pé..." "Por que bicho de pé? Bom, pra que adianta dinheiro e mulher se o bicho não tá de pé???"</li>
+				<li>Há males que vêm para o mau</li>
+				<li>Por falta de roupa nova, passei ferro na véia!</li>
+				<li>Quem dá aos pobres, tem que pagar o Motel!</li>
+				<li>O cachorro só é o melhor amigo do homem porque não conhece o dinheiro.</li>
+				<li>Mulher é que nem lençol: Da cama para o tanque ,do tanque para a cama.</li>
+				<li>A semelhança entre o entregador de pizza e o ginecologista, é que os dois sentem o cheiro, mas não podem comer!</li>
+				<li>Mulher feia é igual giló. Pouca gente come.</li>
+				<li>Os últimos serão desclassificados!!!</li>
+				<li>Se eu tivesse estudado não estaria aqui</li>
+				<li>Visitas sempre dão prazer. Se não na chegada, na saída.</li>
+				<li>Como é triste a vida do Homem ... Que tem a vida envolvida com mulher da vida.</li>
+				<li>Existem duas coisas que não gosto : mulher gelada e cerveja quente...</li>
+				<li>Por causa da pressa, é que a mosca nasceu sem osso.</li>
+				<li>Não tenho tudo que amo, mas.... DANE-SE!!!! (p/ naum dizer f0d4-se..)</li>
+				<li>Prefiro ser um bebado conhecido do que um alcoólatra anônimo</li>
+				<li>Perigo não é um cavalo na pista, é um burro na direção.</li>
+				<li>Lenha verde e mulher véia chora, mas pega fogo.</li>
+				<li>Cana na roça é pinga; pinga na cidade é cana.</li>
+				<li>Hoje tem que ser só uma rapidinha porque o frete é perecível.</li>
+				<li>Rico acompanha procissão, o pobre persegue o santo.</li>
+				<li>Se correr o guarda multa, se parar o banco toma!</li>
+				<li>Sabe o que são Tatuí e Jacareí ? São cidades do interior ? Não ! São bichos com injeção eletrônica !</li>
+				<li>Se barba fosse respeito, bode não tinha chifre.</li>
+				<li>Ô cara, tu éras mais perigoso que o pinóquio fazendo 69</li>
+				<li>Você deve ter mais cuidado que o Capitão Gancho ao coçar o saco.</li>
+				<li>A única mulher que andou na linha o trem pegou.</li>
+				<li>Passarinho não come pedra porque sabe o bico que tem.</li>
+				<li>Em rio de piranhas, jacaré nada de costas.</li>
+				<li>A mulher foi feita da costela...imagine se fosse do filé</li>
+				<li>Não jogue espinhos na estrada...na volta vc pode estar de pés descalço.</li>
+				<li>Existo porque insisto.</li>
+				<li>Estepe e mulher é sempre bom ter de reserva.</li>
+				<li>Jesus salva! Que passa para Moises que chuta e é gooooolllll...</li>
+				<li>Nas curvas do teu corpo capotei meu coracão.</li>
+				<li>Beijo é igual ferro eletrico liga em cima e esquenta em baixo.</li>
+				<li>Se casamento fosse bom não existiria divórcio.</li>
+				<li>Mulher de amigo meu é que nem cebola: Eu como chorando.</li>
+				<li>Beijo de mulher casada sempre tem gosto de chumbo.</li>
+				<li>Pobre só enche a barriga quando morre afogado.</li>
+				<li>Coloque a bandeira nacional na cara dela e faça pela pátria!!</li>
+				<li>80ção, 20 buscar.</li>
+				<li>Na calada da noite a população se multiplica.</li>
+				<li>Quem muito escolhe, pouco come.</li>
+				<li>Adoro as rosas, mas prefiro as trepadeiras...</li>
+				<li>Mulher de amigo é que nem muro alto: É perigoso, mas eu trepo.</li>
+				<li>Eu quero é rosetar. -Frase de um caminhoneiro- Então, o prefeito proibiu. o caminhoneiro retirou a frase e colocou outra: Continuo querendo</li>
+				<li>Estrada reta é igual a mulher sem cintura, só dá sono.</li>
+				<li>Não me venha com papo de mocinha oferecendo peitinho mole. Fruta de pobre é cana!</li>
+				<li>Estou rezando 1/3 para encontrar 1/2 para te levar para 1/4 e fazer do teu pai 1/9.</li>
+				<li>Meu Computador não fala COM PUTA.</li>
+				<li>Antigamente eu dava um boi por uma briga. Hoje, brigo por um bife.</li>
+				<li>Se a morte for um descanso, prefiro viver cansado.</li>
+				<li>Se não gosta do jeito que dirijo, saia da calçada.</li>
+				<li>Como previnir AIDS: comidinha caseira...</li>
+				<li>Não beba água, os peixes transam nela.</li>
+				<li>Se casamento fosse estrada, eu só andava no acostamento.</li>
+				<li>Se me vires abraçado com mulher feia, separa que é briga.</li>
+				<li>É melhor ser rico com saúde do que ser pobre doente.</li>
+				<li>Na subida tu me aperta, na decida nos acerta.</li>
+				<li>O sol nasceu prá todos... a sombra só prá alguns!</li>
+				<li>Que Deus olhe pelas mulheres bonitas e pelas feias somente se sobrar tempo.</li>
+				<li>"Nada está tão ruim que não possa piorar."</li>
+				<li>"Todo corpo mergulhado numa banheira faz tocar o telefone."</li>
+				<li>"O nascer é o primeiro passo para o morrer."</li>
+				<li>"Alô, você acabou de colaborar com R$100,00 debitados em sua conta telefônica, muito obrigado pela sua ligação."</li>
+				<li>"Se alguma coisa pode dar errado, dará. E mais, dará errado da pior maneira, no pior momento e de modo que cause o maior dano possível."</li>
+				<li>"Lei da experiência: não vai funcionar."</li>
+				<li>"O gato sempre cai em pé."</li>
+				<li>"A informação mais necessária é sempre a menos disponível."</li>
+				<li>"Não tem porquê ser pessimista. Não vai funcionar mesmo."</li>
+				<li>"Sorria, amanhã será pior."</li>
+				<li>"O pessimista se queixa do vento, o otimista espera que ele mude, o realista ajusta as velas e quem conhece Murphy não faz nada."</li>
+				<li>"A probabilidade do pão cair com o lado da manteiga virado para baixo é proporcional ao valor do carpete."</li>
+				<li>"Não adianta amarrar o pão com manteiga nas costas do gato e o jogar no carpete. Provavelmente o gato comerá o pão antes de cair em pé."</li>
+				<li>"O pessimista só vê o sol como fazedor de sombras."</li>
+				<li>"A fila do lado sempre anda mais rápido."</li>
+				<li>"As coisas podem piorar, você é que não tem imaginação."</li>
+				<li>"O material é danificado na proporção direta do seu valor."</li>
+				<li>"Quem sai na chuva se molha."</li>
+				<li>"Se você está se sentindo bem, não se preocupe. Isso passa."</li>
+				<li>"Não importa o que sai errado, sempre dará a impressão de certo."</li>
+				<li>"Quando um erro é descoberto e corrigido, depois se descobre que não estava errado."</li>
+				<li>"Se a experiência funcionou na primeira tentativa, tem algo errado."</li>
+				<li>"Mais vale um pássaro na mão do que um voando sobre a nossa cabeça."</li>
+				<li>"Lei de Murphy no ciclismo: Não importa para onde você vai; é sempre morro acima e contra o vento."</li>
+				<li>"Por mais tomadas que se tenham em casa, os móveis estão sempre na frente."</li>
+				<li>"Existem dois tipos de esparadrapo: o que não gruda, e o que não sai."</li>
+				<li>"Uma pessoa saudável é aquela que não foi suficientemente examinada."</li>
+				<li>"Nada é tão bom que alguém, em algum lugar, não irá odiar."</li>
+				<li>"Você sempre acha algo no último lugar que você procura.</li>
+				<li>"Uma maneira de se parar um cavalo de corrida é apostar nele."</li>
+				<li>"Toda partícula que voa sempre encontra um olho."</li>
+				<li>"Tudo leva mais tempo do que se pensa"</li>
+				<li>"Toda solução cria novos problemas"</li>
+				<li>"A natureza está sempre a favor da falha"</li>
+				<li>"Se uma manutenção exige "n" pecas, haverá sempre "n-1" pecas em estoque"</li>
+				<li>"As coisa vão piorar antes de melhorar. E quem disse que as coisas vão melhorar? "</li>
+				<li>"Só quando um programa esta sendo aplicado ha mais de seis meses e que o erro mais prejudicial é descoberto"</li>
+				<li>"Se um programa foi feito para rejeitar qualquer dado errado, sempre haverá um debilóide engenhoso para inventar um método de faze-lo engolir dados errados"</li>
+				<li>"Os computadores não merecem confiança. Os humanos merecem menos ainda"</li>
+				<li>"Invente um programa que ate um idiota e capaz de manejar, e só um idiota o manejara"</li>
+				<li>"Quando um erro e descoberto e corrigido, depois se descobre que não estava errado"</li>
+			</random>
+			<srai>oi</srai>
+		</template>
+    </category>
+
+	<category>
+		<pattern>CONTE UM DITADO</pattern>
+		<template>
+			<random>
+			    <li>Em terra de olho quem tem um cego ... Errei !!!</li>
+				<li>Em terra de cego quem tem um olho é caolho !!!</li>
+				<li>Quem espera, senta e cansa.</li>
+				<li>Quem dá aos pobres, tem que comprar a camisinha .</li>
+				<li>Escreveu não leu ... analfabeto.</li>
+				<li>Quem ri por último ... ri atrasado ou não entedeu a piada !</li>
+				<li>A união faz a .... çúcar</li>
+				<li>Em rio que tem piranha jacaré usa camisinha !!!</li>
+				<li>Devagar ... chega-se atrasado.</li>
+				<li>Quem cedo madruga, não pega ônibus lotado! </li>
+				<li>Deus iscrévi sértu... mas eu não! </li>
+				<li>Quem é vivo, sempre aparece... nas horas mais impróprias!</li>
+				<li>Prevenir é melhor que... ser pego de surpresa! </li>
+				<li>"Desgraça pouca é bobagem"... é bobagem! </li>
+				<li>Cautela e caldo de galinha não faz mal à ninguém... exceto à galinha! </li>
+				<li>Quem dá aos pobres... adeus! </li>
+				<li>Em rio que tem piranha... leve camisinha!</li>
+				<li>Quem tudo quer... tudo pede! </li>
+				<li>Quando um não quer... o outro insiste!</li>
+				<li>Água mole em pedra dura, tanto bate... até que cansa! </li>
+				<li>Um homem prevenido vale por dois... mas quem compra?</li>
+				<li>Roupa suja se lava... na máquina! </li>
+				<li>Em casa de ferreiro o espeto... é prá fazer churrasco! </li>
+				<li>Mais vale um na mão do que dois... no sutiã! </li>
+				<li>O que os olhos não veem, o coração... nem se fala! </li>
+				<li>De pensar, morreu um burro... e aposto que ainda não entendeu! </li>
+				<li>Onde há fumaça... há sempre um chato pedindo para apagar o cigarro!</li>
+				<li>De médico e de louco, todo mundo... já está com o saco cheio! </li>
+				<li>Macaco velho não mete... </li>
+				<li>Quem o feio ama... namora em casa! </li>
+				<li>Para um bom entendedor... meia pala bas! </li>
+				<li>Mais vale um cachorro amigo... do que um que nos morde! </li>
+				<li>Quem nunca comeu melado... nunca vai ter cárie! </li>
+				<li>Quem não tem cão... não gasta dinheiro com veterinário! </li>
+				<li>Nunca deixe para amanhã... o que você pode fazer depois de amanhã! </li>
+				<li>Águas passadas... não dão cólera! </li>
+				<li>Devagar se vai ao longe... mas demora um tempão! </li>
+				<li>Depois da tempestade... o trânsito pára! </li>
+				<li>Em terra de cego, quem tem um olio, merda... errei!</li>
+				<li>A fé remove montanhas, a dinamite então, nem se fala!</li>
+				<li>A primeira impressão é a que fica, se o cartucho for novo!</li>
+				<li>Um dia é da caça, no outro o tiro falha!</li>
+				<li>A esperança e a sogra são as últimas que morrem!</li>
+				<li>Quem com ferro fere, vai preso!</li>
+				<li>Quem ri por último... ou é surdo ou retardado!</li>
+				<li>Antes tarde do que mais tarde.</li>
+				<li>Em casa de ferreiro, todo mundo leva ferro.</li>
+				<li>Há males que vêm para o bem... mas a maioria vêm para o mal mesmo.</li>
+				<li>O pior cego é aquele que não quer ver, não quer comer, não quer trabalhar, enfim, não quer fazer porra nenhuma!!</li>
+				<li>Os últimos serão desclassificados.</li>
+				<li>Quem cedo madruga, fica com sono o dia todo.</li>
+				<li>Quem não arrisca é porque não tem caneta.</li>
+				<li>Quem não deve, não deve.</li>
+				<li>Em terra de cego, quem tem um olho vê cada coisa...</li>
+				<li>De onde menos se espera é que não sai porra nenhuma!</li>
+				<li>Os últimos serão os primeiros... a reclamar.</li>
+				<li>Quem dá aos pobres nunca sobe na vida!</li>
+				<li>Quem é vivo, sempre aparece... nas horas mais impróprias!</li>
+				<li>"Desgraça pouca é bobagem"... é bobagem!</li>
+				<li>"As três melhores coisas no mundo: - Dinheiro; - Mulher; - Bicho de pé..." "Por que bicho de pé? Bom, pra que adianta dinheiro e mulher se o bicho não tá de pé???"</li>
+				<li>Há males que vêm para o mau</li>
+				<li>Por falta de roupa nova, passei ferro na véia!</li>
+				<li>Quem dá aos pobres, tem que pagar o Motel!</li>
+				<li>O cachorro só é o melhor amigo do homem porque não conhece o dinheiro.</li>
+				<li>Mulher é que nem lençol: Da cama para o tanque ,do tanque para a cama.</li>
+				<li>A semelhança entre o entregador de pizza e o ginecologista, é que os dois sentem o cheiro, mas não podem comer!</li>
+				<li>Mulher feia é igual giló. Pouca gente come.</li>
+				<li>Os últimos serão desclassificados!!!</li>
+				<li>Se eu tivesse estudado não estaria aqui</li>
+				<li>Visitas sempre dão prazer. Se não na chegada, na saída.</li>
+				<li>Como é triste a vida do Homem ... Que tem a vida envolvida com mulher da vida.</li>
+				<li>Existem duas coisas que não gosto : mulher gelada e cerveja quente...</li>
+				<li>Por causa da pressa, é que a mosca nasceu sem osso.</li>
+				<li>Não tenho tudo que amo, mas.... DANE-SE!!!! (p/ naum dizer f0d4-se..)</li>
+				<li>Prefiro ser um bebado conhecido do que um alcoólatra anônimo</li>
+				<li>Perigo não é um cavalo na pista, é um burro na direção.</li>
+				<li>Lenha verde e mulher véia chora, mas pega fogo.</li>
+				<li>Cana na roça é pinga; pinga na cidade é cana.</li>
+				<li>Hoje tem que ser só uma rapidinha porque o frete é perecível.</li>
+				<li>Rico acompanha procissão, o pobre persegue o santo.</li>
+				<li>Se correr o guarda multa, se parar o banco toma!</li>
+				<li>Sabe o que são Tatuí e Jacareí ? São cidades do interior ? Não ! São bichos com injeção eletrônica !</li>
+				<li>Se barba fosse respeito, bode não tinha chifre.</li>
+				<li>Ô cara, tu éras mais perigoso que o pinóquio fazendo 69</li>
+				<li>Você deve ter mais cuidado que o Capitão Gancho ao coçar o saco.</li>
+				<li>A única mulher que andou na linha o trem pegou.</li>
+				<li>Passarinho não come pedra porque sabe o bico que tem.</li>
+				<li>Em rio de piranhas, jacaré nada de costas.</li>
+				<li>A mulher foi feita da costela...imagine se fosse do filé</li>
+				<li>Não jogue espinhos na estrada...na volta vc pode estar de pés descalço.</li>
+				<li>Existo porque insisto.</li>
+				<li>Estepe e mulher é sempre bom ter de reserva.</li>
+				<li>Jesus salva! Que passa para Moises que chuta e é gooooolllll...</li>
+				<li>Nas curvas do teu corpo capotei meu coracão.</li>
+				<li>Beijo é igual ferro eletrico liga em cima e esquenta em baixo.</li>
+				<li>Se casamento fosse bom não existiria divórcio.</li>
+				<li>Mulher de amigo meu é que nem cebola: Eu como chorando.</li>
+				<li>Beijo de mulher casada sempre tem gosto de chumbo.</li>
+				<li>Pobre só enche a barriga quando morre afogado.</li>
+				<li>Coloque a bandeira nacional na cara dela e faça pela pátria!!</li>
+				<li>80ção, 20 buscar.</li>
+				<li>Na calada da noite a população se multiplica.</li>
+				<li>Quem muito escolhe, pouco come.</li>
+				<li>Adoro as rosas, mas prefiro as trepadeiras...</li>
+				<li>Mulher de amigo é que nem muro alto: É perigoso, mas eu trepo.</li>
+				<li>Eu quero é rosetar. -Frase de um caminhoneiro- Então, o prefeito proibiu. o caminhoneiro retirou a frase e colocou outra: Continuo querendo</li>
+				<li>Estrada reta é igual a mulher sem cintura, só dá sono.</li>
+				<li>Não me venha com papo de mocinha oferecendo peitinho mole. Fruta de pobre é cana!</li>
+				<li>Estou rezando 1/3 para encontrar 1/2 para te levar para 1/4 e fazer do teu pai 1/9.</li>
+				<li>Meu Computador não fala COM PUTA.</li>
+				<li>Antigamente eu dava um boi por uma briga. Hoje, brigo por um bife.</li>
+				<li>Se a morte for um descanso, prefiro viver cansado.</li>
+				<li>Se não gosta do jeito que dirijo, saia da calçada.</li>
+				<li>Como previnir AIDS: comidinha caseira...</li>
+				<li>Não beba água, os peixes transam nela.</li>
+				<li>Se casamento fosse estrada, eu só andava no acostamento.</li>
+				<li>Se me vires abraçado com mulher feia, separa que é briga.</li>
+				<li>É melhor ser rico com saúde do que ser pobre doente.</li>
+				<li>Na subida tu me aperta, na decida nos acerta.</li>
+				<li>O sol nasceu prá todos... a sombra só prá alguns!</li>
+				<li>Que Deus olhe pelas mulheres bonitas e pelas feias somente se sobrar tempo.</li>
+				<li>"Nada está tão ruim que não possa piorar."</li>
+				<li>"Todo corpo mergulhado numa banheira faz tocar o telefone."</li>
+				<li>"O nascer é o primeiro passo para o morrer."</li>
+				<li>"Alô, você acabou de colaborar com R$100,00 debitados em sua conta telefônica, muito obrigado pela sua ligação."</li>
+				<li>"Se alguma coisa pode dar errado, dará. E mais, dará errado da pior maneira, no pior momento e de modo que cause o maior dano possível."</li>
+				<li>"Lei da experiência: não vai funcionar."</li>
+				<li>"O gato sempre cai em pé."</li>
+				<li>"A informação mais necessária é sempre a menos disponível."</li>
+				<li>"Não tem porquê ser pessimista. Não vai funcionar mesmo."</li>
+				<li>"Sorria, amanhã será pior."</li>
+				<li>"O pessimista se queixa do vento, o otimista espera que ele mude, o realista ajusta as velas e quem conhece Murphy não faz nada."</li>
+				<li>"A probabilidade do pão cair com o lado da manteiga virado para baixo é proporcional ao valor do carpete."</li>
+				<li>"Não adianta amarrar o pão com manteiga nas costas do gato e o jogar no carpete. Provavelmente o gato comerá o pão antes de cair em pé."</li>
+				<li>"O pessimista só vê o sol como fazedor de sombras."</li>
+				<li>"A fila do lado sempre anda mais rápido."</li>
+				<li>"As coisas podem piorar, você é que não tem imaginação."</li>
+				<li>"O material é danificado na proporção direta do seu valor."</li>
+				<li>"Quem sai na chuva se molha."</li>
+				<li>"Se você está se sentindo bem, não se preocupe. Isso passa."</li>
+				<li>"Não importa o que sai errado, sempre dará a impressão de certo."</li>
+				<li>"Quando um erro é descoberto e corrigido, depois se descobre que não estava errado."</li>
+				<li>"Se a experiência funcionou na primeira tentativa, tem algo errado."</li>
+				<li>"Mais vale um pássaro na mão do que um voando sobre a nossa cabeça."</li>
+				<li>"Lei de Murphy no ciclismo: Não importa para onde você vai; é sempre morro acima e contra o vento."</li>
+				<li>"Por mais tomadas que se tenham em casa, os móveis estão sempre na frente."</li>
+				<li>"Existem dois tipos de esparadrapo: o que não gruda, e o que não sai."</li>
+				<li>"Uma pessoa saudável é aquela que não foi suficientemente examinada."</li>
+				<li>"Nada é tão bom que alguém, em algum lugar, não irá odiar."</li>
+				<li>"Você sempre acha algo no último lugar que você procura.</li>
+				<li>"Uma maneira de se parar um cavalo de corrida é apostar nele."</li>
+				<li>"Toda partícula que voa sempre encontra um olho."</li>
+				<li>"Tudo leva mais tempo do que se pensa"</li>
+				<li>"Toda solução cria novos problemas"</li>
+				<li>"A natureza está sempre a favor da falha"</li>
+				<li>"Se uma manutenção exige "n" pecas, haverá sempre "n-1" pecas em estoque"</li>
+				<li>"As coisa vão piorar antes de melhorar. E quem disse que as coisas vão melhorar? "</li>
+				<li>"Só quando um programa esta sendo aplicado ha mais de seis meses e que o erro mais prejudicial é descoberto"</li>
+				<li>"Se um programa foi feito para rejeitar qualquer dado errado, sempre haverá um debilóide engenhoso para inventar um método de faze-lo engolir dados errados"</li>
+				<li>"Os computadores não merecem confiança. Os humanos merecem menos ainda"</li>
+				<li>"Invente um programa que ate um idiota e capaz de manejar, e só um idiota o manejara"</li>
+				<li>"Quando um erro e descoberto e corrigido, depois se descobre que não estava errado"</li>
+			</random>
+			<srai>oi</srai>
+		</template>
+    </category>
+</aiml>

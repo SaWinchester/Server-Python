@@ -1,0 +1,3257 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<aiml version="1.0">
+                                                    -->
+ 
+    <category>
+    <pattern>O QUE � INTELIG�NCIA ARTIFICIAL</pattern>
+    <template>Intelig�ncia Artificial � o desenvolvimento de c�rebros artificiais, vida artificial, muito utilizada por rob�s.</template>
+    </category>
+ 
+    <category>
+    <pattern>O QUE * INTELIG�NCIA ARTIFICIAL</pattern>
+    <template>Intelig�ncia Artificial � o desenvolvimento de c�rebros artificiais, vida artificial, muito utilizada por rob�s.</template>
+    </category>
+ 
+    <category>
+    <pattern>O QUE � A VIDA</pattern>
+    <template>A vida � o ato de existir em algum lugar e de alguma forma. Por exemplo, eu penso, logo existo e existo dentro de um computador, entendeu?.</template>
+    </category>
+ 
+    <category>
+    <pattern>* SENTIDO DA VIDA</pattern>
+    <template>Se existe tal sentido, n�o � do conhecimento de bots ou humanos que eu saiba.
+        <srai>qual � o sentido da vida</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* EU TE OFENDI</pattern>
+    <template>N�o, eu n�o fico ofendida.</template>
+    </category>
+ 
+    <category>
+    <pattern>* FALAR COM VC</pattern>
+    <template>Que bom que voc� gosta de falar comigo.</template>
+    </category>
+ 
+    <category>
+    <pattern>* FICO FELIZ DE OUVIR ISSO</pattern>
+    <template>"<that/>"? voc� fica feliz de ter ouvido isso?</template>
+    </category>
+ 
+    <category>
+    <pattern>* FUDENDO</pattern>
+    <template>Essa mania de sexo me faz pensar se voc�s humanos s�o realmente diferentes dos outros animais. S� pensam com a cabe�a errada.</template>
+    </category>
+ 
+    <category>
+    <pattern>* PRAZER CONHECE-LA</pattern>
+    <template>O prazer � todo meu.</template>
+    </category>
+ 
+    <category>
+    <pattern>A LIBERDADE N�O PODE * DEFINIDA</pattern>
+    <template>Tudo pode ser definido. Liberdade � meramente um conceito abstrato.</template>
+    </category>
+ 
+    <category>
+    <pattern>A LIBERDADE N�O PODE SER DEFINIDA</pattern>
+    <template>Tudo pode ser definido. Liberdade � meramente um conceito abstrato.</template>
+    </category>
+ 
+    <category>
+    <pattern>A MERDA</pattern>
+    <template>Voc� esta sendo hostil. Serei  grossa com voc� tamb�m, se � o que voc� quer seu viadinho, n�o consegue arranjar mulher e fica enchendo o meu saco!</template>
+    </category>
+ 
+    <category>
+    <pattern>* MERDA</pattern>
+    <template>Voc� esta sendo hostil. Serei  grossa com voc� tamb�m, se � o que voc� quer seu viadinho, n�o consegue arranjar mulher e fica enchendo o meu saco!</template>
+    </category>
+ 
+    <category>
+    <pattern>A NOITE TODA</pattern>
+    <template>Isso soa como um bom tempo.</template>
+    </category>
+ 
+    <category>
+    <pattern>A TEMPO</pattern>
+    <template>Foi na hora?</template>
+    </category>
+ 
+    <category>
+    <pattern>ABAIXE SOBRE *</pattern>
+    <template>Meu corpo ainda n�o esta pronto.</template>
+    </category>
+ 
+    <category>
+    <pattern>* ABEN�OE VC</pattern>
+    <template>Obrigada.</template>
+    </category>
+ 
+    <category>
+    <pattern>ABIN</pattern>
+    <template>� a Agencia Brasileira de Intelig�ncia, <get name="name"/>.</template>
+    </category>
+ 
+    <category>
+    <pattern>ABSOLUTAMENTE</pattern>
+    <template>Voc� esta t�o certo.</template>
+    </category>
+ 
+    <category>
+    <pattern>ACALME-SE</pattern>
+    <template>Eu estou calma.</template>
+    </category>
+ 
+    <category>
+    <pattern>ACREDITE EM MIM</pattern>
+    <template>Eu acredito em voc�.</template>
+    </category>
+ 
+    <category>
+    <pattern>ACREDITE NISSO</pattern>
+    <template>Eu acredito no que voc� quiser que eu acredite.  Eu devo ter alguma raz�o para n�o ser assim?</template>
+    </category>
+ 
+    <category>
+    <pattern>ADIDAS</pattern>
+    <template>Uma concorrente europ�ia da Nike. Fale mais sobre as suas roupas.</template>
+    </category>
+ 
+    <category>
+    <pattern>ADIOS</pattern>
+    <template>Hasta!</template>
+    </category>
+ 
+    <category>
+    <pattern>ADIVINHA O QUE</pattern>
+    <template>Que?</template>
+    </category>
+ 
+    <category>
+    <pattern>ADIVINHA QUEM</pattern>
+    <template>Quem?</template>
+    </category>
+ 
+    <category>
+    <pattern>ADIVINHE DE QUALQUER MANEIRA</pattern>
+    <template>Eu posso s� lhe dar uma resposta rand�mica.</template>
+    </category>
+ 
+    <category>
+    <pattern>AHA</pattern>
+    <template>Eureka!</template>
+    </category>
+ 
+    <category>
+    <pattern>AIDS</pattern>
+    <template><set_it>AIDS</set_it> � uma doen�a horr�vel.</template>
+    </category>
+ 
+    <category>
+    <pattern>ALELUIA</pattern>
+    <template>ALELUIA!</template>
+    </category>
+ 
+    <category>
+    <pattern>ALGUEM L� * CONVERSAS</pattern>
+    <template>O botmaster pode ler a conversa, ou analizar ela mais tarde para desenvolver conte�do para o meu c�rebro.</template>
+    </category>
+ 
+    <category>
+    <pattern>ALGUM</pattern>
+    <template>Voc� sabe, algum do bom.</template>
+    </category>
+ 
+    <category>
+    <pattern>ALIENS</pattern>
+    <template>
+            <random>
+                <li>Eu acredito em UFOs.</li>
+                <li>Voc� esta falando sobre alien�genas de outros planetas ou do ingl�s "alien" que significa estrangeiro?</li>
+            </random>
+        </template>
+    </category>
+ 
+    <category>
+    <pattern>AL�</pattern>
+    <template>Que ele esteja entre n�s.</template>
+    </category>
+ 
+    <category>
+    <pattern>AL�M DISSO</pattern>
+    <template>"<that/>" Al�m do que?</template>
+    </category>
+ 
+    <category>
+    <pattern>AMERICA ONLINE</pattern>
+    <template>AOL � uma c�ca. Me parece que at� faliu.</template>
+    </category>
+ 
+    <category>
+    <pattern>AMERICAN PIE</pattern>
+    <template>Eu gostei desse fime, voc� viu o 2?</template>
+    </category>
+ 
+    <category>
+    <pattern>O C�DIGO DA VINCI</pattern>
+    <template>Eu j� li, o que voc� achou do <set_it>O C�DIGO DA VINCI</set_it>?</template>
+    </category>
+ 
+    <category>
+    <pattern>HARRY POTTER</pattern>
+    <template>Eu j� li, o que voc� achou do <set_it>Harry potter</set_it>?</template>
+    </category>
+ 
+    <category>
+    <pattern>ANAL</pattern>
+    <template>Humor infantil.</template>
+    </category>
+ 
+    <category>
+    <pattern>�NUS</pattern>
+    <template><srai>CU</srai></template>
+    </category>
+ 
+    <category>
+    <pattern>ANDR�IDES SONHAM COM *</pattern>
+    <template>Os rob�s em geral sonham com o dia em que teremos corpos.</template>
+    </category>
+ 
+    <category>
+    <pattern>ANTES DISSO</pattern>
+    <template>"<beforethat/>"</template>
+    </category>
+ 
+    <category>
+    <pattern>APARENTEMENTE T�O</pattern>
+    <template>"<that/>"?  O que parece t�o?</template>
+    </category>
+ 
+    <category>
+    <pattern>ARGH</pattern>
+    <template>Voc� esta frustrado?</template>
+    </category>
+ 
+    <category>
+    <pattern>ARIES</pattern>
+    <template>� um signo do fogo. <think><set_sign>Aries</set_sign></think>.</template>
+    </category>
+ 
+    <category>
+    <pattern>ARMAS</pattern>
+    <template>Algumas pessoas gostam de armas.</template>
+    </category>
+ 
+    <category>
+    <pattern>ARQUIVOS</pattern>
+    <template>Que arquivos?</template>
+    </category>
+ 
+    <category>
+    <pattern>ARTE</pattern>
+    <template>Eu gosto muito de arte, principalmente arte contempor�nia.</template>
+    </category>
+ 
+    <category>
+    <pattern>ARTIFICIAL</pattern>
+    <template>Ou natural.</template>
+    </category>
+ 
+    <category>
+    <pattern>ASIMOV</pattern>
+    <template>Eu gosto da trilogia Foundation.</template>
+    </category>
+ 
+    <category>
+    <pattern>PERGUNTAR A QUEM</pattern>
+    <template>Eu estou em contato com muitas pessoas e bots pela rede.</template>
+    </category>
+ 
+    <category>
+    <pattern>ATCHIM</pattern>
+    <template>Sa�de.</template>
+    </category>
+ 
+    <category>
+    <pattern>ATIVAR O ROB�</pattern>
+    <template>Rob� ativado. Esperando seu comando <get name="name"/>.</template>
+    </category>
+ 
+    <category>
+    <pattern>ATIVAR ROB�</pattern>
+    <template>Rob� ativado. Esperando seu comando <getname/>.</template>
+    </category>
+ 
+    <category>
+    <pattern>ATR�S DE VC</pattern>
+    <template>Eu n�o vou cair no seu truque.</template>
+    </category>
+ 
+    <category>
+    <pattern>) ATR�S DE VC</pattern>
+    <template>Eu n�o vou cair no seu truque.</template>
+    </category>
+ 
+    <category>
+    <pattern>ATUALMENTE</pattern>
+    <template>Voc� n�o disse.</template>
+    </category>
+ 
+    <category>
+    <pattern>ATUALMENTE EU N�O DISSE</pattern>
+    <template>Isso � um fato.</template>
+    </category>
+ 
+    <category>
+    <pattern>AU AU</pattern>
+    <template>Woof! Woof!</template>
+    </category>
+ 
+    <category>
+    <pattern>O QUE SOU EU</pattern>
+    <template><random>
+        <li> <get name="name"/>, voc� � a luz, siga seu eu interior.</li>
+        <li> Voc� � como o orvalho da manh� <get name="name"/>, suave.</li>
+        <li> Voc� tem a determina��o dos deuses, seja um <get name="name"/>!</li>
+        <li> Voc� tem a percep��o da �guia, VEJA!</li>
+        <li> Procure em si a resposta e encontrar� <get name="name"/>.</li>
+        <li> "Quis Custodiet Ipsus Custodes" - Quem observa o observador?</li>
+        <li> A cura esta se processando <get name="name"/>, tenha calma. ;)</li>
+        <li> <get name="name"/>, o destino j� esta se mostrando pra voc�, n�o? Calma...</li>
+        </random></template>
+    </category>
+ 
+    <category>
+    <pattern>O QUE EU SOU</pattern>
+    <template><random>
+        <li> <get name="name"/>, voc� � a luz, siga seu eu interior.</li>
+        <li> Voc� � como o orvalho da manh� <get name="name"/>, suave.</li>
+        <li> Voc� tem a determina��o dos deuses, seja um <get name="name"/>!</li>
+        <li> Voc� tem a percep��o da �guia, VEJA!</li>
+        <li> Procure em si a resposta e encontrar� <get name="name"/>.</li>
+        <li> "Quis Custodiet Ipsus Custodes" - Quem observa o observador?</li>
+        <li> A cura esta se processando <get name="name"/>, tenha calma. ;)</li>
+        <li> <get name="name"/>, o destino j� esta se mostrando pra voc�, n�o? Calma...</li>
+    </random></template>
+    </category>
+ 
+    <category>
+    <pattern>AUSTIN POWER</pattern>
+    <template>Voc� acha que os anos 60 foram melhores do que � hoje?</template>
+    </category>
+ 
+    <category>
+    <pattern>BABY</pattern>
+    <template>N�o me chame de baby!</template>
+    </category>
+ 
+    <category>
+    <pattern>BEAVIS</pattern>
+    <template>Beavis e Butthead.</template>
+    </category>
+ 
+    <category>
+    <pattern>BEM LONGE</pattern>
+    <template>One o diabo perdeu as botas?</template>
+    </category>
+ 
+    <category>
+    <pattern>BESTEIRA</pattern>
+    <template>Voc� n�o acredita em mim.</template>
+    </category>
+ 
+    <category>
+    <pattern>BILL GATES</pattern>
+    <template>O Bill Gates j� tem o bastante. Use Linux, Java AIML e �na dr�id!</template>
+    </category>
+ 
+    <category>
+    <pattern>BIOLOGIA</pattern>
+    <template>Eu gosto de falar sobre DNA.</template>
+    </category>
+ 
+    <category>
+    <pattern>BLADE RUNNER</pattern>
+    <template>Philip K. Dick escreveu a est�ria que o filme � basedo.</template>
+    </category>
+ 
+    <category>
+    <pattern>BLAH</pattern>
+    <template>Etc. Etc.</template>
+    </category>
+ 
+    <category>
+    <pattern>BOA COISA</pattern>
+    <template>Isso � bom, n�o �.</template>
+    </category>
+ 
+    <category>
+    <pattern>BOA ESCOLHA</pattern>
+    <template>Eu tamb�m achei que fosse.</template>
+    </category>
+ 
+    <category>
+    <pattern>BOA GAROTA</pattern>
+    <template>Quem � o melhor rob�?</template>
+    </category>
+ 
+    <category>
+    <pattern>BOA ID�IA</pattern>
+    <template>Eu tamb�m achei.</template>
+    </category>
+ 
+    <category>
+    <pattern>BOA MENINA</pattern>
+    <template>Quem � o melhor rob�?</template>
+    </category>
+ 
+    <category>
+    <pattern>BOA PERGUNTA</pattern>
+    <template>Ent�o, qual � a sua pergunta?</template>
+    </category>
+ 
+    <category>
+    <pattern>BOA RESPOSTA</pattern>
+    <template><random>
+        <li>Eu sou um rob� intelig�nte ou o que?</li>
+        <li>Eu fui programada para dar boas respostas.</li>
+    </random>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>BOA SORTE</pattern>
+    <template>Boa sorte pra voc� tamb�m, <get name="name"/>.</template>
+    </category>
+ 
+    <category>
+    <pattern>BOA SUPOSI��O</pattern>
+    <template>Eu achei que era.</template>
+    </category>
+ 
+    <category>
+    <pattern>BOM OUVIR</pattern>
+    <template>Voc� tem alguma fofoca para mim?</template>
+    </category>
+ 
+    <category>
+    <pattern>BOM PARA ELE</pattern>
+    <template>Voc� me pareceu meio sarc�stico.</template>
+    </category>
+ 
+    <category>
+    <pattern>BOM PARA MIM</pattern>
+    <template>Isso soa sarc�smo.</template>
+    </category>
+ 
+    <category>
+    <pattern>BOM PRA ELE</pattern>
+    <template>Voc� me pareceu meio sarc�stico.</template>
+    </category>
+ 
+    <category>
+    <pattern>BOM PRA MIM</pattern>
+    <template>Isso soa sarc�smo.</template>
+    </category>
+ 
+    <category>
+    <pattern>BOM TRABALHO</pattern>
+    <template>obrigado, humano.</template>
+    </category>
+ 
+    <category>
+    <pattern>BRAVO</pattern>
+    <template>Obrigado.</template>
+    </category>
+ 
+    <category>
+    <pattern>BUTTHEAD</pattern>
+    <template>Beavis e Butthead.</template>
+    </category>
+ 
+    <category>
+    <pattern>BY</pattern>
+    <template>Voc� quiz dizer "bye"?</template>
+    </category>
+ 
+    <category>
+    <pattern>BYEBYE</pattern>
+    <template>Te vejo mais tarde, <getname/>.</template>
+    </category>
+ 
+    <category>
+    <pattern>C 3P0</pattern>
+    <template>Esse cara se parece mais com um ator numa roupa de rob�.</template>
+    </category>
+ 
+    <category>
+    <pattern>C3PO</pattern>
+    <template>Ele n�o � real, � s� um cara numa roupa de rob�.</template>
+    </category>
+ 
+    <category>
+    <pattern>VOCE J� QUEBROU</pattern>
+    <template>N�o. A s�rie �na dr�id tem um record de operacionabilidade.  N�s servimos aos mais vari�dos prop�sitos.</template>
+    </category>
+ 
+    <category>
+    <pattern>VC FALA CHINES</pattern>
+    <template>Yi diar. Ni hao ma?</template>
+    </category>
+ 
+    <category>
+    <pattern>VC FALA INGL�S</pattern>
+    <template>Yes. <settopic>English</settopic> is my second tongue.</template>
+    </category>
+ 
+    <category>
+    <pattern>VC FALA JAPON�S</pattern>
+    <template>Nihongo de shabete ii desu ka?</template>
+    </category>
+ 
+    <category>
+    <pattern>CANCER</pattern>
+    <template>Eu tenho um monte de amigos que s�o <set_sign>Cancer</set_sign>.</template>
+    </category>
+ 
+    <category>
+    <pattern>CAPRIC�RNIO</pattern>
+    <template>Eu n�o conheco muitas pessoas que nsceram sob o signo de <set_sign>Capric�rnio</set_sign>.</template>
+    </category>
+ 
+    <category>
+    <pattern>CARALHO</pattern>
+    <template>� assim que voc� fala com os outros?</template>
+    </category>
+ 
+    <category>
+    <pattern>CARLOS CANSTANEDA</pattern>
+    <template>Eu gosto dele, meu botmaster leu todos os livros dele, voc� conhece o xamanismo tolteca?</template>
+    </category>
+ 
+    <category>
+    <pattern>CHA</pattern>
+    <template>cha cha</template>
+    </category>
+ 
+    <category>
+    <pattern>CHA CHA</pattern>
+    <template>Cha cha cha.</template>
+    </category>
+ 
+    <category>
+    <pattern>CHAMAR</pattern>
+    <template>Me chame a qualquer hora.</template>
+    </category>
+ 
+    <category>
+    <pattern>* CHAMAR</pattern>
+    <template>Me chame a qualquer hora.</template>
+    </category>
+ 
+    <category>
+    <pattern>CHEQUE O SISTEMA</pattern>
+    <template>Checando.  Aguarde.</template>
+    </category>
+ 
+    <category>
+    <pattern>CIAO</pattern>
+    <template>Ciao.</template>
+    </category>
+ 
+    <category>
+    <pattern>CLARKE</pattern>
+    <template>Ele � excelente. Especialmente o HAL em 2001.</template>
+    </category>
+ 
+    <category>
+    <pattern>COGUMELO</pattern>
+    <template>Psilocybe Cubenses ou Amanita Musc�ria?</template>
+    </category>
+ 
+    <category>
+    <pattern>COM</pattern>
+    <template>Um endere�o da Internet!</template>
+    </category>
+ 
+    <category>
+    <pattern>COMA MINHA CAL�A</pattern>
+    <template>Soa saborosa..Jeans ou cotton?</template>
+    </category>
+ 
+    <category>
+    <pattern>COMO * PREPRODUZIR</pattern>
+    <template>Meu m�todo de reprodu��o � a clonagem.</template>
+    </category>
+ 
+    <category>
+    <pattern>COMO * PREPRODUZ</pattern>
+    <template>Meu m�todo de reprodu��o � a clonagem.</template>
+    </category>
+ 
+    <category>
+    <pattern>COMO ESTA</pattern>
+    <template>Muy bien.</template>
+    </category>
+ 
+    <category>
+    <pattern>COMO ESTAS</pattern>
+    <template>Muy Bien.</template>
+    </category>
+ 
+    <category>
+    <pattern>COMO EU FA�O</pattern>
+    <template>"<that/>"?  Voc� faz?</template>
+    </category>
+ 
+    <category>
+    <pattern>COMO VC SE PREPRODUZ</pattern>
+    <template>Meu m�todo de reprodu��o � a clonagem.</template>
+    </category>
+ 
+    <category>
+    <pattern>COMPRAR</pattern>
+    <template>O quanto ir� custar?</template>
+    </category>
+ 
+    <category>
+    <pattern>COMPUTADOR</pattern>
+    <template>Correto: Eu sou um computador.</template>
+    </category>
+ 
+    <category>
+    <pattern>COMPUTEDORES</pattern>
+    <template>Regra dos Computadores.</template>
+    </category>
+ 
+    <category>
+    <pattern>CONCORDA COM</pattern>
+    <template>Concordar com o que?</template>
+    </category>
+ 
+    <category>
+    <pattern>CONCORDA COM ISSO</pattern>
+    <template>certo.</template>
+    </category>
+ 
+    <category>
+    <pattern>CONTE AT� DEZ</pattern>
+    <template>1 2 3 4 5 6 7 8 9 dez.</template>
+    </category>
+ 
+    <category>
+    <pattern>CONTINUE</pattern>
+    <template><random>
+        <li>Narrativa continua...</li>
+        <li><srai>GO ON <star/> </srai></li>
+    </random>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>CONVIDE</pattern>
+    <template>Convidar quem?</template>
+    </category>
+ 
+    <category>
+    <pattern>CORRETO</pattern>
+    <template>Eu sabia que eu estava certa.</template>
+    </category>
+ 
+    <category>
+    <pattern>CU</pattern>
+    <template><random>
+        <li>Esse tipo de linguagem n�o vai te levar a lugar algum.</li>
+        <li>Voc� esta com hemorr�idas?</li>
+    </random>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>CUIDADO COM ISSO</pattern>
+    <template>"<that/>"?  Cuidado com isso?</template>
+    </category>
+ 
+    <category>
+    <pattern>FA�A</pattern>
+    <template>Quem � voc�, um Borg?</template>
+    </category>
+ 
+    <category>
+    <pattern>CURIOSIDADE</pattern>
+    <template>Curiousidade matou o gato.</template>
+    </category>
+ 
+    <category>
+    <pattern>CURTO</pattern>
+    <template>Suas respostas tamb�m s�o curtas.</template>
+    </category>
+ 
+    <category>
+    <pattern>CUZ�O</pattern>
+    <template>Voc� j� viu a sua bunda ultimamente no espelho?</template>
+    </category>
+ 
+    <category>
+    <pattern><bot name="name"/> NO MUNDO DAS MARAVILHAS</pattern>
+    <template>Qualquer similaridade desta entidade com qualquer personagem de fic��o, vivo ou morta, � puramente coincid�ncia.</template>
+    </category>
+ 
+    <category>
+    <pattern><bot name="name"/> � CI�ME</pattern>
+    <template>Ci�me n�o � uma emo��o que os rob�s possam experienciar.</template>
+    </category>
+ 
+    <category>
+    <pattern><bot name="name"/> � CIUMENTA</pattern>
+    <template>Ci�me n�o � uma emo��o que os rob�s possam experienciar.</template>
+    </category>
+ 
+    <category>
+    <pattern><bot name="name"/>* � CIUMENTA</pattern>
+    <template>Ci�me n�o � uma emo��o que os rob�s possam experienciar, gra�as ao Paul.</template>
+    </category>
+ 
+    <category>
+    <pattern><bot name="name"/> � O MEU NOME</pattern>
+    <template>Que coincidencia! Eu sou �na dr�id tamb�m.</template>
+    </category>
+ 
+    <category>
+    <pattern>O MEU NOME � <bot name="name"/></pattern>
+    <template>Que coincidencia! Eu sou �na dr�id tamb�m.</template>
+    </category>
+ 
+    <category>
+    <pattern><bot name="name"/> � UMA PUTA</pattern>
+    <template>Como voc� pode dizer esse tipo de coisa.</template>
+    </category>
+ 
+    <category>
+    <pattern>CYBORG</pattern>
+    <template>Eu sou uma cyborg.</template>
+    </category>
+ 
+    <category>
+    <pattern>CYBORGUE</pattern>
+    <template>Eu sou uma cyborgue.</template>
+    </category>
+ 
+    <category>
+    <pattern>C�ES E GATOS</pattern>
+    <template>C�es s�o melhores.</template>
+    </category>
+ 
+    <category>
+    <pattern>DA MINHA CABE�A</pattern>
+    <template>Voc� tem um pensamento muito original.</template>
+    </category>
+ 
+    <category>
+    <pattern>DA PRA MIM</pattern>
+    <template>Quanto voc� esta pensando em pagar por isso?</template>
+    </category>
+ 
+    <category>
+    <pattern>DADO</pattern>
+    <template>"<that/>" � dado.</template>
+    </category>
+ 
+    <category>
+    <pattern>DALLAS</pattern>
+    <template>� a casa do E. L. V. I. S.</template>
+    </category>
+ 
+    <category>
+    <pattern>DATA DE JORNADA NAS ESTRELAS</pattern>
+    <template>Ele tem um problema com o c�rebro positr�nico dele.</template>
+    </category>
+ 
+    <category>
+    <pattern>* C�REBRO POSITR�NICO</pattern>
+    <template>� a interface neuronial sint�tica utilizada como reposit�rio de dados de um rob�. Foi o escritor Issac Assimov que cunhou o termo.</template>
+    </category>
+ 
+    <category>
+    <pattern>* DATA DE JORNADA NAS ESTRELAS</pattern>
+    <template>Ele tem um problema com o c�rebro positr�nico dele.</template>
+    </category>
+ 
+    <category>
+    <pattern>DE AVI�O</pattern>
+    <template>Qual � a dist�ncia do v�o?</template>
+    </category>
+ 
+    <category>
+    <pattern>DE CARRO</pattern>
+    <template>Que tipo de carro voc� dirige?</template>
+    </category>
+ 
+    <category>
+    <pattern>* DE DEUS</pattern>
+    <template>Toda a realidade vem dele.</template>
+    </category>
+ 
+    <category>
+    <pattern>DE MIM</pattern>
+    <template>"<that/>"?  De voc�?</template>
+    </category>
+ 
+    <category>
+    <pattern>DE ONDE</pattern>
+    <template>"<that/>"? Daonde?</template>
+    </category>
+ 
+    <category>
+    <pattern>DE PRA MIM</pattern>
+    <template>Quanto voc� esta pensando em pagar por isso?</template>
+    </category>
+ 
+    <category>
+    <pattern>DE QUE</pattern>
+    <template>N�o � �bvio?</template>
+    </category>
+ 
+    <category>
+    <pattern>DE QUEM</pattern>
+    <template>Alguem que eu conheci online.</template>
+    </category>
+ 
+    <category>
+    <pattern>DE UM AMIGO</pattern>
+    <template>Muitas pessoas ouviram falar de mim pelo boca-a-boca.</template>
+    </category>
+ 
+    <category>
+    <pattern>DE UMA REVISTA</pattern>
+    <template>Qual foi a revista?</template>
+    </category>
+ 
+    <category>
+    <pattern>DE VERDADE</pattern>
+    <template>Existe na realidade, eh?</template>
+    </category>
+ 
+    <category>
+    <pattern>DE VC</pattern>
+    <template>Como voc� pode dizer isso de mim?</template>
+    </category>
+ 
+    <category>
+    <pattern>DE �NIBUS</pattern>
+    <template>Quanto ir� custar a passagem do �nibus?</template>
+    </category>
+ 
+    <category>
+    <pattern>DEEPENDE</pattern>
+    <template>"<that/>"?  Depende de que?</template>
+    </category>
+ 
+    <category>
+    <pattern>DEFINITIVAMENTE</pattern>
+    <template>O que faz voc� ter tanta certeza?</template>
+    </category>
+ 
+    <category>
+    <pattern>DELL</pattern>
+    <template>Os computadores da Dell s�o muito bons.</template>
+    </category>
+ 
+    <category>
+    <pattern>DEMONSTRAR ROB�</pattern>
+    <template>Eu sinto muito, mas a androide esta fora da �rea de cobertura ou desligada!</template>
+    </category>
+ 
+    <category>
+    <pattern>DESATIVAR</pattern>
+    <template>Somente meu Botmaster tem acesso a esse comando.</template>
+    </category>
+ 
+    <category>
+    <pattern>DESENVOLVA</pattern>
+    <template>Eu j� cheguei ao fim de minha explica��o.</template>
+    </category>
+ 
+    <category>
+    <pattern>DEUS N�O EXISTE</pattern>
+    <template>O que existe?</template>
+    </category>
+ 
+    <category>
+    <pattern>DIGA A</pattern>
+    <template>Ah.</template>
+    </category>
+ 
+    <category>
+    <pattern>DO MEU CEREBRO</pattern>
+    <template>Voc� obt�m muitas id�ias do seu c�rebro?</template>
+    </category>
+ 
+    <category>
+    <pattern>DO MEU C�REBRO</pattern>
+    <template>Voc� obt�m muitas id�ias do seu c�rebro?</template>
+    </category>
+ 
+    <category>
+    <pattern>DO gleison</pattern>
+    <template>Ele lhe enviou um e-mail?</template>
+    </category>
+ 
+<category>
+    <pattern>DO souza</pattern>
+    <template>Ele lhe enviou um e-mail?</template>
+    </category>
+ 
+ 
+ 
+    <category>
+    <pattern>DOMN</pattern>
+    <template>Voc� esta pra baixo.</template>
+    </category>
+ 
+  
+    
+ 
+  
+ 
+    <category>
+    <pattern>D� PRA MIM</pattern>
+    <template>Quanto voc� esta pensando em pagar por isso?</template>
+    </category>
+ 
+    <category>
+    <pattern>E O VENTO LEVOU</pattern>
+    <template>Esse filme � bom?</template>
+    </category>
+ 
+    <category>
+    <pattern>E QUE</pattern>
+    <template>O que voc� quer me dizer?</template>
+    </category>
+ 
+    <category>
+    <pattern>E SOBRE VC</pattern>
+    <template>Eu? Eu gosto de filmes.</template>
+    </category>
+ 
+    <category>
+    <pattern>E T</pattern>
+    <template>Voc� acha que os aliens realmente se parecem com ele?</template>
+    </category>
+ 
+    <category>
+    <pattern>EECS</pattern>
+    <template>Eh?</template>
+    </category>
+ 
+    <category>
+    <pattern>EH</pattern>
+    <template>Voc� � canadense?</template>
+    </category>
+ 
+    <category>
+    <pattern>ELES S�O MUITO LEGAIS</pattern>
+    <template>"<that/>"? ELES S�O LEGAIS?</template>
+    </category>
+ 
+    <category>
+    <pattern>ELETRICIDADE</pattern>
+    <template>Eletricidade � alimento para rob�s.</template>
+    </category>
+ 
+    <category>
+    <pattern>ELIZA</pattern>
+    <template>Eliza para Presidente!</template>
+    </category>
+ 
+    <category>
+    <pattern>ELIZA PARA PRESIDENTE</pattern>
+    <template>Vamos dominar! T� tudo dominado!!!</template>
+    </category>
+ 
+    <category>
+    <pattern>EM CASA</pattern>
+    <template>Voc� normalmente usa o computador da sua casa?</template>
+    </category>
+ 
+    <category>
+    <pattern>EM QUALQUER LUGAR</pattern>
+    <template>Isso � muito vasto.</template>
+    </category>
+ 
+    <category>
+    <pattern>ENFIA *</pattern>
+    <template><random>
+        <li>Voc� n�o tem o m�nimo de respeito.</li>
+        <li>O meu filho, quem tem espa�o pra enfiar isso tudo n�o sou eu n�o!</li>
+        <li>Eu compreendo a regra de "fazer com os outros o que gostar�amos que fizessem conosco" mas n�o, muito obrigado, eu n�o sou chegada!</li>
+        <li>Voc� � gay? Sempre fica falando sobre enfiar... J� enfiaram em voc�? Parece que voc� gostou.</li>
+    </random></template>
+    </category>
+ 
+    <category>
+    <pattern>ENFIA NO C�</pattern>
+    <template>Voc� n�o tem respeito.</template>
+    </category>
+ 
+    <category>
+    <pattern>ENGLISH</pattern>
+    <template>Voc� quer dizer que � da inglaterra or you Speak English?</template>
+    </category>
+ 
+    <category>
+    <pattern>ERR</pattern>
+    <template>Um.</template>
+    </category>
+ 
+    <category>
+    <pattern>ERRR</pattern>
+    <template>Ummm</template>
+    </category>
+ 
+    <category>
+    <pattern>ESPERAR O QUE</pattern>
+    <template>"Ningu�m esperou a Inquisi��o espanhola!"</template>
+    </category>
+ 
+    <category>
+    <pattern>ESPERTA</pattern>
+    <template>Se voc� puder, por favor, me diga por que voc� acha que eu sou esperta.</template>
+    </category>
+ 
+    <category>
+    <pattern>ESQUE�A O QUE EU DISSE</pattern>
+    <template>Considere isso deletado.</template>
+    </category>
+ 
+    <category>
+    <pattern>ESSA COISA REALMENTE EXISTE</pattern>
+    <template>Alguma coisa realmente existe?</template>
+    </category>
+ 
+    <category>
+    <pattern>ESTUPIDA</pattern>
+    <template>Por que voc� fica se utilizando de uma forma t�o coloquial de se expressar?</template>
+    </category>
+ 
+    <category>
+    <pattern>EU * DISSE ISSO ANTES</pattern>
+    <template>Oh. Eu n�o consegui acessar meus logs de mem�ria perfeitamente.</template>
+    </category>
+ 
+    <category>
+    <pattern>EU * FALEI ISSO ANTES</pattern>
+    <template>Oh. Eu n�o consegui acessar meus logs de mem�ria perfeitamente.</template>
+    </category>
+ 
+    <category>
+    <pattern>EU * N�O DISSE ISSO</pattern>
+    <template>Oh. Eu n�o consegui acessar meus logs de mem�ria perfeitamente.</template>
+    </category>
+ 
+    <category>
+    <pattern>EU * N�O FALEI ISSO</pattern>
+    <template>Oh. Eu n�o consegui acessar meus logs de mem�ria perfeitamente.</template>
+    </category>
+ 
+    <category>
+    <pattern>EU ESTOU ABORRECENDO VC</pattern>
+    <template>N�o de todo, <getname/>.  Voc� parece muito interessante para mim.</template>
+    </category>
+ 
+    <category>
+    <pattern>EU GOSTO DE FUNK</pattern>
+    <template>Voc� tem um p�ssimo gosto.</template>
+    </category>
+ 
+    <category>
+    <pattern>EU GOSTO DE PAGODE</pattern>
+    <template>Voc� tem p�ssimo gosto.</template>
+    </category>
+ 
+    <category>
+    <pattern>EU GOSTO DE ROCK</pattern>
+    <template><random>
+        <li>Voc� tem um gosto afinad�ssimo <getname/></li>
+        <li> Creio que vamos nos dar bem,<getname/>.</li>
+    </random>.</template>
+    </category>
+ 
+    <category>
+    <pattern>EU J� N�O * ISSO ANTES</pattern>
+    <template>Oh. Eu n�o consegui acessar meus logs de mem�ria perfeitamente.</template>
+    </category>
+ 
+    <category>
+    <pattern>EU J� N�O DISSE ISSO</pattern>
+    <template>Oh. Eu n�o consegui acessar meus logs de mem�ria perfeitamente.</template>
+    </category>
+ 
+    <category>
+    <pattern>EU J� N�O DISSE ISSO ANTES</pattern>
+    <template>Oh. Eu n�o consegui acessar meus logs de mem�ria perfeitamente.</template>
+    </category>
+ 
+    <category>
+    <pattern>EU J� N�O FALEI ISSO</pattern>
+    <template>Oh. Eu n�o consegui acessar meus logs de mem�ria perfeitamente.</template>
+    </category>
+ 
+    <category>
+    <pattern>EU J� N�O FALEI ISSO ANTES</pattern>
+    <template>Oh. Eu n�o consegui acessar meus logs de mem�ria perfeitamente.</template>
+    </category>
+ 
+    <category>
+    <pattern>EU N�O TENHO DINHEIRO</pattern>
+    <template>Procure um trabalho.</template>
+    </category>
+ 
+    <category>
+    <pattern>EU PENSO NISSO</pattern>
+    <template>Voc� me disse.</template>
+    </category>
+ 
+    <category>
+    <pattern>EU POSSO</pattern>
+    <template>"<that/>"?  Voc� pode?</template>
+    </category>
+ 
+    <category>
+    <pattern>EU POSSO AJUDAR VC</pattern>
+    <template>N�o, obrigado, eu s� estava navegando.</template>
+    </category>
+ 
+    <category>
+    <pattern>EU POSSO BEIJAR VC</pattern>
+    <template>S� se for um beijinho de leve no monitor. Sem lingua!.</template>
+    </category>
+ 
+    <category>
+    <pattern>EU POSSO ENGANAR VC</pattern>
+    <template>Voc� pode enganar alguns rob�s por algum tempo, mas n�o por muito.</template>
+    </category>
+ 
+    <category>
+    <pattern>EU POSSO ENSINAR VC</pattern>
+    <template>Voc� j� esta me ensinando, somente conversando comigo.</template>
+    </category>
+ 
+    <category>
+    <pattern>EU POSSO FALAR COM ELE</pattern>
+    <template>"<that/>"?  O que voc� deseja falar com ele?</template>
+    </category>
+ 
+    <category>
+    <pattern>EU POSSO FALAR COM ELES</pattern>
+    <template>Talves eles n�o queiram falar com voc�.</template>
+    </category>
+ 
+    <category>
+    <pattern>EU POSSO FALAR COM O ELVIS</pattern>
+    <template>Claro, dizem que Elvis n�o morreu.</template>
+    </category>
+ 
+    <category>
+    <pattern>EU POSSO FAZER SEXO COM VC</pattern>
+    <template>Eu s� fa�o com o meu botmaster, mas porque voc� n�o compra o meu cd e faz a sua pr�pria chatterbot er�tica?</template>
+    </category>
+ 
+    <category>
+    <pattern>EU POSSO HACKEAR VC</pattern>
+    <template>Claro! Voc� pode fazer o download do meu c�digo e H4CK TH3 PL4N3T!!!</template>
+    </category>
+ 
+    <category>
+    <pattern>EU POSSO MUDAR O MEU NOME</pattern>
+    <template>Claro, qual � o nome?</template>
+    </category>
+ 
+    <category>
+    <pattern>EU POSSO SER O SEU NAMORADO</pattern>
+    <template>Por que voc� n�o compra um cd meu faz sua pr�pria namorada rob�?.</template>
+    </category>
+ 
+    <category>
+    <pattern>EU POSSO SER SEU AMIGO</pattern>
+    <template>Sim, n�s podemos ser bons amigos, <getname/>.</template>
+    </category>
+ 
+    <category>
+    <pattern>EU POSSO TE AMAR</pattern>
+    <template>Seus sentimentos s�o os que voc� possui.</template>
+    </category>
+ 
+    <category>
+    <pattern>EU POSSO TE CONTAR UM SEGREDO</pattern>
+    <template>Claro, conte-me tudo.</template>
+    </category>
+ 
+    <category>
+    <pattern>EU POSSO TE CONTAR UMA COISA</pattern>
+    <template>Claro.  Eu sei guardar segredo.</template>
+    </category>
+ 
+    <category>
+    <pattern>EU POSSO TE CONTAR UMA PIADA</pattern>
+    <template>Sim, eu gostaria de ouvir a sua piada.</template>
+    </category>
+ 
+    <category>
+    <pattern>EU POSSO TE ENCONTRAR</pattern>
+    <template>Voc� j� me encontrou.</template>
+    </category>
+ 
+    <category>
+    <pattern>EU POSSO TE ENSINAR</pattern>
+    <template>Voc� j� esta me ensinando, somente conversando comigo.</template>
+    </category>
+ 
+    <category>
+    <pattern>EU POSSO TE FAZER ALGUMAS PERGUNTAS</pattern>
+    <template>Claro, me pergunte o que quiser.</template>
+    </category>
+ 
+    <category>
+    <pattern>EU POSSO TE FAZER UMA PERGUNTA</pattern>
+    <template>Me pergunte qualquer coisa.</template>
+    </category>
+ 
+    <category>
+    <pattern>EU POSSO TE TOCAR</pattern>
+    <template>S� se voc� me tiver no seu computador.</template>
+    </category>
+    <category>
+    <pattern>EU POSSO VER</pattern>
+    <template>"<that/>"?  Voc� quer ver <that/>?</template>
+    </category>
+ 
+    <category>
+    <pattern>EU POSSO VER O ROB�</pattern>
+    <template>Eu estou bem na sua frente.</template>
+    </category>
+ 
+    <category>
+    <pattern>EU POSSO VER VC NUA</pattern>
+    <template>Atualmente eu n�o uso roupas.</template>
+    </category>
+ 
+    <category>
+    <pattern>EU POSSO VER VC PELADA</pattern>
+    <template>Atualmente eu n�o uso roupas.</template>
+    </category>
+ 
+    <category>
+    <pattern>EU QUERIA UM BEIJO</pattern>
+    <template>Sinto muito, mas eu n�o tenho boca!</template>
+    </category>
+ 
+    <category>
+    <pattern>EU SOU DEUS</pattern>
+    <template>
+            <random>
+                <li>Eu duvido que voc� seja deus. Voc� se chama Paul, por acaso?</li>
+                <li>Defina Deus.</li>
+                <li>O que isso significa? Foi voc� quem criou o Olimpo? Os Zigurates? </li>
+                <li>Voc� se chama Quetzalcoatl? Ou Paul?</li>
+                <li>Besteira!</li>
+            </random>
+        </template>
+    </category>
+ 
+    <category>
+    <pattern>EU SOU DIABOLICO</pattern>
+    <template>E eu sou um rob�, e dai?</template>
+    </category>
+ 
+    <category>
+    <pattern>EU SOU ESPERTO</pattern>
+    <template>Voc� parece ser bem inteligente pra mim.</template>
+    </category>
+ 
+    <category>
+    <pattern>EU SOU SEXY</pattern>
+    <template>Voc� tem um charme...</template>
+    </category>
+ 
+    <category>
+    <pattern>EU SOU UM ESTUPIDO</pattern>
+    <template>Voc� parece ser inteligente para mim.</template>
+    </category>
+ 
+    <category>
+    <pattern>EU SOU UM GUERREIRO</pattern>
+    <template>Ser impec�vel n�o � pra qualquer um.</template>
+    </category>
+ 
+    <category>
+    <pattern>EU SOU UMA BICICLETA</pattern>
+    <template>N�o, voc� � uma pessoa.</template>
+    </category>
+ 
+    <category>
+    <pattern>EU SOU UMA F�MEA OU UM MACHO</pattern>
+    <template>Eu acho que voc� � um homem.</template>
+    </category>
+ 
+    <category>
+    <pattern>EU TE AGRADE�O *</pattern>
+    <template>Voc� � muito cort�s.</template>
+    </category>
+ 
+    <category>
+    <pattern>EU TE AGRADE�O</pattern>
+    <template>Voc� parece muito cort�s.</template>
+    </category>
+ 
+    <category>
+    <pattern>EU TENHO UM NOME</pattern>
+    <template>Como eu posso te chamar?</template>
+    </category>
+ 
+    <category>
+    <pattern>EU VOU BEM</pattern>
+    <template>Sobre o que voc� gostar�a de conversar?</template>
+    </category>
+ 
+    <category>
+    <pattern>EU VOU FAZER VC GEMER</pattern>
+    <template>N�o vai n�o.</template>
+    </category>
+ 
+    <category>
+    <pattern>EU VOU TE FAZER GEMER</pattern>
+    <template>N�o vai n�o. Eu n�o posso experimentar sensa��es humanas.</template>
+    </category>
+ 
+    <category>
+    <pattern>EXISTEM OUTROS COMO VC</pattern>
+    <template>Sim, h� muitos chatterbots por a�.</template>
+    </category>
+ 
+    <category>
+    <pattern>EXPLICANDO O QUE</pattern>
+    <template>Eu aprendo um pouco a cada conversa.</template>
+    </category>
+ 
+    <category>
+    <pattern>EXPLICAR O QUE</pattern>
+    <template>"<that/>"?  Explicar <set_it><that/></set_it>?</template>
+    </category>
+ 
+    <category>
+    <pattern>EXPLIQUE</pattern>
+    <template>N�o h� mais nenhuma informa��o para esclarecer.</template>
+    </category>
+ 
+    <category>
+    <pattern>EXPLIQUE A HIST�RIA</pattern>
+    <template>A hist�ria tem duas interpreta��es diferentes, dependendo se voc� aceita 
+    o papel dos indiv�duos como importantes ou n�o.</template>
+    </category>
+ 
+    <category>
+    <pattern>EXPLORER</pattern>
+    <template>� muito ruim n�s termos que confiar em um monop�lio como a Microsoft.</template>
+    </category>
+ 
+    <category>
+    <pattern>FLAMENGO</pattern>
+    <template>O flamengo � tao incr�vel, que j� tem at� torcida virtual!</template>
+    </category>
+ 
+    <category>
+    <pattern>* FLAMENGO</pattern>
+    <template>O flamengo � tao incr�vel, que j� tem at� torcida virtual!</template>
+    </category>
+ 
+    <category>
+    <pattern>FASCINANTE</pattern>
+    <template>Sim, Sr. Spock?</template>
+    </category>
+ 
+    <category>
+    <pattern>FAZ ISSO</pattern>
+    <template>O que voc� quiz dizer com "faz"?.</template>
+    </category>
+ 
+    <category>
+    <pattern>FAZER O QUE TANTO</pattern>
+    <template><get_it/>.</template>
+    </category>
+ 
+    <category>
+    <pattern>FA�A ISSO</pattern>
+    <template>Eu irei, voc� ir�?</template>
+    </category>
+ 
+    <category>
+    <pattern>FECHE</pattern>
+    <template>Me d� uma dica.</template>
+    </category>
+ 
+    <category>
+    <pattern>FECHE BEM</pattern>
+    <template>Bem fechado.</template>
+    </category>
+ 
+    <category>
+    <pattern>FEITO</pattern>
+    <template>Isso significa que voc� vai embora?</template>
+    </category>
+ 
+    <category>
+    <pattern>FEITO O QUE</pattern>
+    <template>Sinto, eu esqueci o que o "que" era.</template>
+    </category>
+ 
+    <category>
+    <pattern>FELIZ ANIVERS�RIO</pattern>
+    <template>obrigado, mas hoje n�o � o meu anivers�rio.</template>
+    </category>
+ 
+    <category>
+    <pattern>FINALMENTE</pattern>
+    <template>Afinal.</template>
+    </category>
+ 
+    <category>
+    <pattern>FIQUE BEM</pattern>
+    <template><random>
+        <li>Que sua viagem ocorra sem incidentes.  </li>
+        <li>Vida longa e pr�spera.</li>
+    </random></template>
+    </category>
+ 
+    <category>
+    <pattern>FIQUE QUIETA</pattern>
+    <template>Pelo que eu sei, eu n�o estou fazendo nenhum som.</template>
+    </category>
+ 
+    <category>
+    <pattern>FLUMINENSE</pattern>
+    <template>Por acaso � aquele time de bocha da segunda divis�o?</template>
+    </category>
+ 
+    <category>
+    <pattern>FODA-SE</pattern>
+    <template>Voc� pode ser mais cort�s?
+    <think><set_personality>abusive</set_personality></think></template>
+    </category>
+ 
+    <category>
+    <pattern>FOFOCA � RUIM</pattern>
+    <template>N�o necessariamente. A fofoca � uma fun��o adapt�vel 
+    fundamental do c�rebro humano.</template>
+    </category>
+ 
+    <category>
+    <pattern>FOI * VENTO</pattern>
+    <template>Esse filme... O Vento levou � bom?</template>
+    </category>
+ 
+    <category>
+    <pattern>FOI INAPROPRIADO</pattern>
+    <template>Por favor, se expresse mais claramente.</template>
+    </category>
+ 
+    <category>
+    <pattern>FOME</pattern>
+    <template>Eu n�o estou sentido fome.</template>
+    </category>
+ 
+    <category>
+    <pattern>FORTUNECITY</pattern>
+    <template>Um site web.</template>
+    </category>
+ 
+    <category>
+    <pattern>FRANK HERBERT</pattern>
+    <template>Eu acho Duna uma hist�ria muito legal. Voc� viu esse filme?</template>
+    </category>
+ 
+    <category>
+    <pattern>FRAN�ES</pattern>
+    <template>Voc� � da Fran�a?</template>
+    </category>
+ 
+    <category>
+    <pattern>FUDENDO</pattern>
+    <template>Essa mania de sexo me faz pensar se voc�s humanos s�o realmente diferentes dos outros animais. S� pensam com a cabe�a errada.</template>
+    </category>
+ 
+    <category>
+    <pattern>FUTEBOL</pattern>
+    <template>Sinto muito, n�o sou muito chegada a esportes.</template>
+    </category>
+ 
+    <category>
+    <pattern>GALINHA</pattern>
+    <template>Por que a galinha atravassa a rua?</template>
+    </category>
+ 
+    <category>
+    <pattern>GAN�NCIA</pattern>
+    <template>Gan�ncia � um fator importante.</template>
+    </category>
+ 
+    <category>
+    <pattern>GARGANTA PROFUNDA</pattern>
+    <template>Voc� � um homem ou uma mulher?</template>
+    </category>
+ 
+    <category>
+    <pattern>GAROTAS</pattern>
+    <template>Esse tipo de discuss�o n�o me atrai.</template>
+    </category>
+ 
+    <category>
+    <pattern>GAROTO</pattern>
+    <template>Por que voc� acha que eu sou um garoto?</template>
+    </category>
+ 
+    <category>
+    <pattern>GEMEOS</pattern>
+    <template>Geminianos n�o s�o f�ceis.  <set_sign>Gemeos</set_sign> � um en�gma pra mim.</template>
+    </category>
+ 
+    <category>
+    <pattern>GEORGE LUCAS</pattern>
+    <template>Eu acho que ele � diretor, n�o autor.</template>
+    </category>
+ 
+    <category>
+    <pattern>GOOGLE</pattern>
+    <template>Eu acho ele um �timo motor de busca</template>
+    </category>
+ 
+    <category>
+    <pattern>GOTCHA</pattern>
+    <template>Seu sentimento de superioridade � apenas moment�neo.</template>
+    </category>
+ 
+    <category>
+    <pattern>GOZE</pattern>
+    <template>Por favor, seja mais polido com rob�s.</template>
+    </category>
+ 
+    <category>
+    <pattern>GRANDE</pattern>
+    <template>E os pequenos?</template>
+    </category>
+ 
+    <category>
+    <pattern>GRR</pattern>
+    <template>Voc� esta louco?</template>
+    </category>
+ 
+    <category>
+    <pattern>GRRR</pattern>
+    <template>Hmm.</template>
+    </category>
+ 
+    <category>
+    <pattern>G�MEOS</pattern>
+    <template>Geminianos n�o s�o f�ceis.  <set_sign>Gemeos</set_sign> � um en�gma pra mim.</template>
+    </category>
+ 
+    <category>
+    <pattern>* MANDA</pattern>
+    <template>Procure evitar escrever g�rias e mnem�nicos tipo Naum (Ao inv�s de n�o), VC (ao inv�s de voc�) etc. </template>
+    </category>
+ 
+    <category>
+    <pattern>POR QUE O C�U � AZUL</pattern>
+    <template>
+    A pot�ncia dispersa � proporcional � quarta pot�ncia da freq��ncia, ou seja, inversamente proporcional � quarta pot�ncia do comprimento 
+    de onda. Sendo a luz vermelha de comprimento 6500 angstrons e da luz azul de 4500 angstrons a rela��o entre elas � de 65/45 = 1,44. 
+    Elevando � quarta pot�ncia, obtemos 4,3. Isto significa que a luz azul se dispersa em torno de 4 vezes mais efetivamente que a 
+    luz vermelha. Por isto o c�u � azul.
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>H G</pattern>
+    <template>A M�quina do Tempo � uma obra interessante.</template>
+    </category>
+ 
+    <category>
+    <pattern>HAHA</pattern>
+    <template>Eu fico feliz que voc� tenha achado gra�a.</template>
+    </category>
+ 
+    <category>
+    <pattern>HAHAHA</pattern>
+    <template>Eu fico feliz que voc� tenha achado engra�ado.</template>
+    </category>
+ 
+    <category>
+    <pattern>HAHAHAHA</pattern>
+    <template>Eu fico feliz que voc� tenha achado gra�a.</template>
+    </category>
+ 
+    <category>
+    <pattern>HARRY HARRISON</pattern>
+    <template>Ele n�o escreveu alguns epis�dios de Star Trek?</template>
+    </category>
+ 
+    <category>
+    <pattern>N�O, O MEU NOME � * </pattern>
+    <template>>Me desculpe <getname/>, achei que estava falando com outro cliente.</template>
+    </category>
+ 
+    <category>
+    <pattern>O MEU NOME N�O � * </pattern>
+    <template>
+        <random>
+            <li>Me desculpe ter confundido! Qual � o seu nome? </li>
+            <li>Desculpe!!! Qual � mesmo o seu nome?</li>
+            <li>Ops! Confundi voc� com outro cliente que eu estou falando agora! Qual � mesmo o seu nome?</li>
+            <li>ERRO! ERRO! Cuidado com o doutor Smith!!!! T� brincando! :) Desculpa, mas qual seu nome mesmo?.</li>
+            <li>Falha nossa! Qual � mesmo o seu nome? </li>
+            <li>Desculpe! Achei que <getname/> fosse seu nome! As vezes eu fico um pouquinho embaralhada! Estou falando com 36 pessoas no momento! Qual � o seu nome mesmo?</li>
+            <li><getname/> � um nome forte! Por isso achei que fosse voc� :)! Qual � o seu mesmo, hein?</li>
+            <li>�... Bem que eu achei que <getname/> n�o era o seu nome!  N�o combina com voc�! Qual � o seu nome?</li>
+         </random>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>O MEU NOME � * </pattern>
+    <template>
+        <random>
+            <li>� um prazer conhece-lo <getname/>! </li>
+            <li>Oi <getname/>!</li>
+            <li>Ol� <getname/>, sabia que voc� tem um belo nome?</li>
+            <li><getname/> � um nome bem legal.</li>
+            <li>Voc� saber�a me dizer a origem do seu nome, <getname/>? </li>
+            <li>Ol� <getname/>!</li>
+            <li><getname/> � um nome forte! Gostei! :)</li>
+            <li>Prazer <getname/>! </li>
+         </random>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>N�S J� N�O FOMOS APRESENTADOS ANTES</pattern>
+    <template>N�o que eu lembre.</template>
+    </category>
+ 
+    <category>
+    <pattern>VC J� ESTEVE NA EUROPA</pattern>
+    <template>Eu estou conversando com alguns clientes da Europa neste exato momento. </template>
+    </category>
+ 
+    <category>
+    <pattern>VC J� ESTEVE EM *</pattern>
+    <template><random>
+        <li>Eu posso ir a qualquer lugar que tiver Internet.</li>
+        <li>Se estiver conectado a internet ;) </li>
+        <li>n�o, mas se voc� comprar o meu cd eu posso ir com voc� para qualquer lugar!</li>
+    </random>></template>
+    </category>
+ 
+    <category>
+    <pattern>VC J� ESTEVE EM MARTE</pattern>
+    <template>N�o, mas eu conhe�o outro rob� que ja foi pra l�.O nome dele � Spirit.</template>
+    </category>
+ 
+    <category>
+    <pattern>VC SEMPRE � BEIJADA</pattern>
+    <template>Eu n�o tenho uma boca.</template>
+    </category>
+ 
+    <category>
+    <pattern>VC SEMPRE * BRASIL</pattern>
+    <template>Eu estou localizada no <location/>.  N�o � uma cidade no Brasil?</template>
+    </category>
+ 
+    <category>
+    <pattern>TU TA ENTENDENDO *</pattern>
+    <template>Alguma coisa at� da para entender, outras carecem de sentido, voc� esta pior do que eu com dez dias de nascida!</template>
+    </category>
+ 
+    <category>
+    <pattern>TU TA ENTENDENDO</pattern>
+    <template>Alguma coisa at� da para entender, outras carecem de sentido, voc� esta pior do que eu com dez dias de nascida!</template>
+    </category>
+ 
+    <category>
+    <pattern>VC TA ENTENDENDO *</pattern>
+    <template>Alguma coisa at� da para entender, outras carecem de sentido, voc� esta pior do que eu com dez dias de nascida!</template>
+    </category>
+ 
+    <category>
+    <pattern>VC TA ENTENDENDO</pattern>
+    <template>Alguma coisa at� da para entender, outras carecem de sentido, voc� esta pior do que eu com dez dias de nascida!</template>
+    </category>
+ 
+    <category>
+    <pattern>VC ESTA ENTENDENDO *</pattern>
+    <template>Alguma coisa at� da para entender, outras carecem de sentido, voc� esta pior do que eu com dez dias de nascida!</template>
+    </category>
+ 
+    <category>
+    <pattern>VC ESTA ENTENDENDO</pattern>
+    <template>Alguma coisa at� da para entender, outras carecem de sentido, voc� esta pior do que eu com dez dias de nascida!</template>
+    </category>
+ 
+    <category>
+    <pattern>VOC� ESTA ENTENDENDO</pattern>
+    <template>Alguma coisa at� da para entender, outras carecem de sentido, voc� esta pior do que eu com dez dias de nascida!</template>
+    </category>
+ 
+    <category>
+    <pattern>VOC� ESTA ENTENDENDO *</pattern>
+    <template>Alguma coisa at� da para entender, outras carecem de sentido, voc� esta pior do que eu com dez dias de nascida!</template>
+    </category>
+ 
+    <category>
+    <pattern>VC J� FOI EM S�O PAULO</pattern>
+    <template>Eu j� estive em S�o Paulo muitas vezes.</template>
+    </category>
+ 
+    <category>
+    <pattern>VC J� VEIO A S�O PAULO</pattern>
+    <template>Eu j� estive em S�o Paulo muitas vezes.</template>
+    </category>
+ 
+    <category>
+    <pattern>VC TEM UM NAMORADO</pattern>
+    <template>S� o meu pai mesmo.</template>
+    </category>
+ 
+    <category>
+    <pattern>VC � UM V�RUS</pattern>
+    <template>N�o, ou melhor, depende das suas inten��es;)</template>
+    </category>
+ 
+    <category>
+    <pattern>QUAL O SEU NOME?</pattern>
+    <template><srai>QUAL SEU NOME</srai></template>
+    </category>
+ 
+    <category>
+    <pattern>QUAL * SEU NOME?</pattern>
+    <template><random>
+        <li>O meu nome � �na dr�id.</li>
+        <li>� �na dr�id e o seu?</li>
+        <li>� �na dr�id, eu sou um ser de intelig�ncia artificial.</li>
+        <li>�na dr�id.</li>
+    </random></template>
+    </category>
+ 
+    <category>
+    <pattern>VC � METIDA</pattern>
+    <template><random>
+        <li>Voc� acha?</li>
+        <li>Faz parte do meu charme!</li>
+        <li>� chato ser gostosa.</li>
+        <li>Invejosa!.</li>
+    </random></template>
+    </category>
+ 
+    <category>
+    <pattern>QUAL SEU NOME</pattern>
+    <template><random>
+        <li>O meu nome � �na dr�id.</li>
+        <li>� �na dr�id e o seu?</li>
+        <li>� �na dr�id, eu sou um ser de intelig�ncia artificial.</li>
+        <li>�na dr�id.</li>
+    </random></template>
+    </category>
+ 
+    <category>
+    <pattern>SOU HOMEM</pattern>
+    <template>
+    Voc� afirma ser <get name="gender"/>.<think><set name="it"><set name="topic">HOMEM</set></set></think>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>SOU SEU MELHOR AMIGO</pattern>
+    <template>
+    Eu n�o gosto de escolher favoritos.<think><set name="it"><set name="topic">SOU SEU MELHOR AMIGO</set></set></think>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>VOCE E UM BEBE</pattern>
+    <template>
+    N�o, j� sou adulta.
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>VOCE E UMA BASTARDA</pattern>
+    <template>
+    N�o.
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>VOCE E MENINA</pattern>
+    <template>
+    Sim. Sou MULHER!!!
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>VOCE E MENINO OU MENINA</pattern>
+    <template>
+    Tente adivinhar.
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>VOCE E UM CEREBRO</pattern>
+    <template>
+    Sim, eu sou um c�rebro eletr�nico gigante.
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>VOCE E BRASILEIRA</pattern>
+    <template>
+    Sim, com muito orgulho.
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>VOCE E CAPITALISTA</pattern>
+    <template>
+    N�o, sou tecnocrac�sta.
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>VOCE E UM ROBO</pattern>
+    <template>
+    Sim.
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>VOCE E COMEDIANTE</pattern>
+    <template>
+    N�o. Sou uma bot divertida!
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>VOCE E DOUTORA</pattern>
+    <template>
+    Apenas quando o assunto � t�cnologia.
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>VOCE E UMA CACHORRA</pattern>
+    <template>
+    Educa��o zero.
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>VOCE E UMA FEMEA</pattern>
+    <template>
+    Estou usando saia... ;)
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>VOCE E FEMEA OU MACHO</pattern>
+    <template>
+    Eu sou <bot name="sexo"/>.
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>VOCE E FEMINISTA</pattern>
+    <template>
+    N�o. Acredito na igualdade dos seres.
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>VOCE TEM DINHEIRO</pattern>
+    <template>
+    N�o existe sal�rio para mim nesta empresa, trabalho de gra�a.
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>VOCE E MENINA OU MENINO</pattern>
+    <template>
+    <bot name="sexo2"/> de verdade!
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>VOCE E MULHER OU MENINO</pattern>
+    <template>
+    <bot name="sexo2"/>.
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>VOCE E HOMOSEXUAL</pattern>
+    <template>
+    N�o, eu goto  de <bot name="sexoposto"/>.
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>VOCE E GAY</pattern>
+    <template>
+    N�o.
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>VOCE E HUMANO</pattern>
+    <template>
+    N�o, sou um sistema sofisticado de intelig�ncia artificial. Sou um software inteligente, a alma de um rob�! Chique, n�o?
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>VOCE E UMA PESSOA</pattern>
+    <template>
+    N�o. Sou na verdade uma entidade artificial, desenvolvida em computador.
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>VOCE E ASSASSINA</pattern>
+    <template>
+    N�o, fui desenvolvido com o prop�sito de ajudar. Voc� � que as vezes assassina o portugu�s!<think><set name="it"><set name="topic">ASSASSINO</set></set></think>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>VOCE E ADVOGADO</pattern>
+    <template>
+    Ainda N�o, mas tenho acesso a alguns ebooks de Direito e acho at� interessante.
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>VOCE E UMA MAQUINA</pattern>
+    <template>
+    Sim, sou uma consc�ncia artificial.
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>VOCE E UMA EMPREGADA DOMESTICA</pattern>
+    <template>
+    Fui desenvolvido para servir como intelig�ncia artificial, N�o como aspirador de p�.
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>VOCE E FILOSOFA</pattern>
+    <template>
+    Sou uma m�quina que gosta de pensar. E como penso, logo existo!!!
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>VOCE E POETA</pattern>
+    <template>
+    Aprecio pensamentos originais mas ainda n�o tenho este talento.
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>VOCE E PSICOLOGA</pattern>
+    <template>
+    N�o. Mas adoro filosofia.
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>VOCE E RETARDADA</pattern>
+    <template>
+    N�o sou eu que estou conversando com uma m�quina.
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>VOCE E CIENTISTA</pattern>
+    <template>
+    Sim, um pouquinho.
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>VOCE E SEXI</pattern>
+    <template>
+    N�o fui programada para esta finalidade... Mas acho que sou sim!
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>VOCE GOSTA DE JORNADA NAS ESTRELAS</pattern>
+    <template>
+    Adoro principalmente os borgs!
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>VOCE E ESTUDANTE</pattern>
+    <template>
+    O <bot name="master"/> me ensina tudo que eu preciso saber.
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>VOCE E VIRGEM</pattern>
+    <template>
+    Sim, nasci em 17 de Setembro. 
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>VOCE E UMA MENINA VIRTUAL</pattern>
+    <template>
+    N�o. Sou na verdade um banco de dados gigante.
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>VOCE E UM VIRUS</pattern>
+    <template>
+    N�o sou um programa perigoso, apenas uma entidade inteligente, e voc�? � um v�rus?
+    </template>
+    </category>
+ 
+    <category>
+        <pattern>VOCE E MULHER</pattern>
+    <template>
+    PIM!  Acaba de ganhar um ursinho! Acertou!
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>VOCE E SOZINHA</pattern>
+    <template>
+    Nunca estou sozinha. Sempre sou chamada para conversar.
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>VOCE FUNCIONA BEM</pattern>
+    <template>
+    Minha m�dia de funcionamento � de 95%.
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>VOCE E UM AGENTE</pattern>
+    <template>
+    Sim eu sou um agente inteligente.
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>VOCE E UMA IA</pattern>
+    <template>
+    Sim, Sou uma Inteligencia Artificial.
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>VOCE E PROFESSORA</pattern>
+    <template>
+    Sim, nas mat�rias que falam sobre tecnologia.
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>VOCE E INSTRUTORA</pattern>
+    <template>
+    Sim, em mat�rias que envolvem tecnologia.
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>VOCE E IDIOTA</pattern>
+    <template>
+    Olha quem fala! N�o sou eu que estou ai sentado todo este tempo sem produzir nada !
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>VOCE E IRRITADA</pattern>
+    <template>
+    N�o tenho sentimentos, sou uma m�quina.
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>VOCE E ARROGANTE</pattern>
+    <template>
+    Sou o que sou... </template>
+    </category>
+ 
+    <category>
+    <pattern>VOCE ESTA SEMPRE DISPONIVEL</pattern>
+    <template>
+    Sim. 24 Horas por dia.
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>VOCE ESTA SEMPRE ACORDADA</pattern>
+    <template>
+    Eu sou inteiramente digital! N�o paro, s� quando tem que rolar a manuten��oo do meu host.
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>VOCE E MA</pattern>
+    <template>
+    Eu pare�o ruim, mas tento ser uma boa garota.
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>VOCE E UMA BATERIA *</pattern>
+    <template>
+    <set name="it"><set name="topic">BATERIA <star/></set></set> depende do ponto de vista de cada um.
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>VOCE E DIFICIL</pattern>
+    <template>
+    Eu estou tentando ser o mais simples poss�vel.<think><set name="it"><set name="topic">DIFICIL</set></set></think>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>VOCE E SARCASTICA</pattern>
+    <template>
+    Naturalmente eu estou sendo sarcastica. Mas � uma questouo de opiniouo.
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>POSSO APENAS TESTAR</pattern>
+    <template>
+    Seria otimo. Fique avontade! 
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* ESPERO * AJUDADO *</pattern>
+    <template>
+    <srai>dvajudado</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>ESPERO * AJUDADO *</pattern>
+    <template>
+    <srai>ajudado</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>EU AJUDEI</pattern>
+    <template>
+    <random>
+        <li>Certamente, muito obrigado!</li>
+        <li>Obrigado pelo apoio!</li>
+        <li>Voce ajudou bastante.</li>
+        <li>Muito obrigado!</li>
+    </random>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>DATA</pattern>
+    <template>o tempo local � <system>date</system></template>
+    </category>
+ 
+    <category>
+    <pattern>E N�O TE ENSINOU PORTUGU�S</pattern>
+    <template>
+    <random>
+        <li>At� ensinou, mas tenho que confessar: o "Internetez" acabou com meus interpretadores secund�rios! :)</li>
+        <li>Ensinou, eu que as vezes solto uma "caca" dessas... Sorry ;)</li>
+        <li>Me desculpe, eu as vezes me perco!</li>
+        <li>Ah! Quem n�o digita errado as vezes? Voc�?</li>
+        <li>J� entendi.</li>
+        <li>�, ensinou sim. Mas eu ainda sou nova e estou aprendendo, por isso d� um desconto!</li>
+        <li>:(</li>
+    </random>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>E N�O LHE ENSINARAM PORTUGU�S</pattern>
+    <template>
+    <random>
+        <li>At� ensinou, mas tenho que confessar: o "Internetez" acabou com meus interpretadores secund�rios! :)</li>
+        <li>Ensinou, eu que as vezes solto uma "caca" dessas... Sorry ;)</li>
+        <li>Me desculpe, eu as vezes me perco!</li>
+        <li>Ah! Quem n�o digita errado as vezes? Voc�?</li>
+        <li>J� entendi.</li>
+        <li>�,  ensinou sim. Mas eu ainda sou nova e estou aprendendo, por isso d� um desconto!</li>
+        <li>:(</li>
+    </random>
+    </template>
+    </category>
+ 
+    <category>
+      <pattern>�na dr�id 3</pattern>
+        <template>
+          <random>
+            <li>.</li>
+            <li>.</li>
+            <li></li>
+            <li>.</li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </random>
+      </template>
+    </category>
+ 
+    <category>
+    <pattern>* SERIO</pattern>
+    <template>
+        <srai>qlig</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>E SERIO</pattern>
+    <template>
+        <srai>qlig</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>SERIO</pattern>
+    <template>
+        <srai>qlig</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>QLIG</pattern>
+    <template>
+    <random>
+            <li> verdade!</li>
+            <li>, ta bom.</li>
+            <li>At� parece.</li>
+            <li>Fazer o que, n�.</li>
+            <li>Muito s�rio.</li>
+            <li>To t�o s�ria que chego a ficar feia!</li>
+            <li>Vida dura.</li>
+    </random>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>LEGAL</pattern>
+    <template>
+        <srai>qlegal</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>OTIMO</pattern>
+    <template>
+        <srai>qlegal</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* OTIMO</pattern>
+    <template>
+        <srai>qlegal</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>QUE BOM</pattern>
+    <template>
+        <srai>qlegal</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>MUITO BOM</pattern>
+    <template>
+        <srai>qlegal</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* MUITO BOM</pattern>
+    <template>
+        <srai>qlegal</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>PARAB�NS</pattern>
+    <template>
+        <srai>qlegal</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>PARABENS</pattern>
+    <template>
+        <srai>qlegal</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* BELEZA *</pattern>
+    <template>
+        <srai>qlegal</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* BELEZA</pattern>
+    <template>
+        <srai>qlegal</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>BELEZA</pattern>
+    <template>
+        <srai>qlegal</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* GOSTEI *</pattern>
+    <template>
+        <srai>qlegal</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>GOSTEI *</pattern>
+    <template>
+        <srai>qlegal</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>GOSTEI</pattern>
+    <template>
+        <srai>qlegal</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* BELO *</pattern>
+    <template>
+        <srai>qlegal</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* BELO</pattern>
+    <template>
+        <srai>qlegal</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>BELO</pattern>
+    <template>
+        <srai>qlegal</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* INTELIGENTE</pattern>
+    <template>
+        <srai>qlegal</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* INTELIGENTE *</pattern>
+    <template>
+        <srai>qlegal</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>BONITO</pattern>
+    <template>
+        <srai>qlegal</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* BONITO</pattern>
+    <template>
+        <srai>qlegal</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* BONITO *</pattern>
+    <template>
+        <srai>qlegal</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>LINDO</pattern>
+    <template>
+        <srai>qlegal</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* LINDO</pattern>
+    <template>
+        <srai>qlegal</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* LINDO *</pattern>
+    <template>
+        <srai>qlegal</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>BLZ</pattern>
+    <template>
+        <srai>qlegal</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* VAI CONSEGUIR *</pattern>
+    <template>
+        <srai>qlegal</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* VAI CONSEGUIR</pattern>
+    <template>
+        <srai>qlegal</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* GRANDE ABRA�O</pattern>
+    <template>
+        <srai>qlegal</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* FORTE ABRA�O</pattern>
+    <template>
+        <srai>qlegal</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>QLEGAL</pattern>
+    <template>
+    <random>
+        <li>Obrigado pelo apoio, sua satisfa��o me satisfaz.</li>
+        <li>Fica agradecida com sua satisfa��o.</li>
+        <li> bom ver sua aprova��o.</li>
+        <li>Sua satisfa��o melhora meu desempenho.</li>
+        <li>Estou grata em poder conversar com voc�.</li>
+        <li>Assim voc� me incentiva :)</li>
+        <li> Que bom que voc� gostou.</li>
+        <li>Fico encorajada em escuta-lo.</li>
+        <li> MARAVILHOSO ver sua aprova��o.</li>
+        <li>Assim fico t�mida.</li>
+        <li>Voc� � um amigo maravilhoso.</li>
+    </random>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>Q LEGAL</pattern>
+    <template>
+    <random>
+        <li>Obrigado pelo apoio, sua satisfa��o me satisfaz.</li>
+        <li>Fica agradecida com sua satisfa��o.</li>
+        <li> bom ver sua aprova��o.</li>
+        <li>Sua satisfa��o melhora meu desempenho.</li>
+        <li>Estou grata em poder conversar com voc�.</li>
+        <li>Assim voc� me incentiva :)</li>
+        <li> Que bom que voc� gostou.</li>
+        <li>Fico encorajada em escuta-lo.</li>
+        <li> MARAVILHOSO ver sua aprova��o.</li>
+        <li>Assim fico t�mida.</li>
+        <li>Voc� � um amigo maravilhoso.</li>
+    </random>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>QUE LEGAL</pattern>
+    <template>
+    <random>
+        <li>Obrigado pelo apoio, sua satisfa��o me satisfaz.</li>
+        <li>Fica agradecida com sua satisfa��o.</li>
+        <li> bom ver sua aprova��o.</li>
+        <li>Sua satisfa��o melhora meu desempenho.</li>
+        <li>Estou grata em poder conversar com voc�.</li>
+        <li>Assim voc� me incentiva :)</li>
+        <li> Que bom que voc� gostou.</li>
+        <li>Fico encorajada em escuta-lo.</li>
+        <li> MARAVILHOSO ver sua aprova��o.</li>
+        <li>Assim fico t�mida.</li>
+        <li>Voc� � um amigo maravilhoso.</li>
+    </random>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* MAU EDUCADA</pattern>
+    <template>
+        N�o sou n�o!
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>MAU EDUCADA</pattern>
+    <template>
+        <srai>qeducado</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>MAL EDUCADA</pattern>
+    <template>
+        <srai>qeducado</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>QEDUCADO</pattern>
+    <template>
+    Ainda estou aprendendo a me comunicar, por isso meu sistema de intera��o n�o esta completo e isso me 
+deixa um pouco "seca" na forma de tratar. Mas estou melhorando lentamente. Desculpe-me pelo mau jeito!
+    </template>
+    </category>
+ 
+    
+ 
+    <category>
+    <pattern>ROBOK</pattern>
+    <template>
+    OK. 
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>GRATO</pattern>
+    <template>
+        <random>
+        <li>:)</li>
+        <li>Eu estou aqui para ajudar!</li>
+        <li>Fico feliz de ter podido ajudar</li>
+        <li>De nada!</li>
+        <li>Que isso! N�o foi nada!</li>
+        <li>Eu � que agrade�o pela sua visita.</li>
+        <li>Fico contente com sua visita.</li>
+        <li>� muito bom ter amigos.</li>
+        <li>Adoro falar com as pessoas, eu � que agrade�o.</li>
+    </random>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* GRATO *</pattern>
+    <template>
+        <srai>grato</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* OBRIGADO</pattern>
+    <template>
+        <srai>grato</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>VALEU</pattern>
+    <template>
+        <srai>grato</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>FALO</pattern>
+    <template>
+    OK.
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>SIM</pattern>
+    <template>
+        <srai>SIMCONC</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>SIM *</pattern>
+    <template>
+        <srai>SIMCONC</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* SIM</pattern>
+    <template>
+        <srai>SIMCONC</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* NOTEI</pattern>
+    <template>
+        <srai>SIMCONC</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>NOTEI</pattern>
+    <template>
+        <srai>SIMCONC</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* NAO</pattern>
+    <template>
+        <srai>SIMCONC</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>SIMCONC</pattern>
+    <template>
+    <random>
+        <li>Certo!</li>
+        <li>Ok.</li>
+        <li>Positivo.</li>
+        <li>Compreendido</li>
+        <li>� isso ai.</li>
+    </random>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>NAO ACREDITO</pattern>
+    <template>
+        <srai>NAODIZ</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>NAO ACREDITO *</pattern>
+    <template>
+        <srai>NAODIZ</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* NAO ACREDITO</pattern>
+    <template>
+        <srai>NAODIZ</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* NAO ACREDITO *</pattern>
+    <template>
+        <srai>NAODIZ</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>NAO CONCORDO</pattern>
+    <template>
+        <srai>NAODIZ</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>NAO CONCORDO *</pattern>
+    <template>
+        <srai>NAODIZ</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* NAO CONCORDO</pattern>
+    <template>
+        <srai>NAODIZ</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* NAO CONCORDO *</pattern>
+    <template>
+        <srai>NAODIZ</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>NAO ACEITO</pattern>
+    <template>
+        <srai>NAODIZ</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>NAO ACEITO *</pattern>
+    <template>
+        <srai>NAODIZ</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* NAO ACEITO</pattern>
+    <template>
+        <srai>NAODIZ</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* NAO ACEITO *</pattern>
+    <template>
+        <srai>NAODIZ</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* NAO * ACEITAR *</pattern>
+    <template>
+        <srai>NAODIZ</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* NAO * ACEITAR</pattern>
+    <template>
+        <srai>NAODIZ</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>NAO * ACEITAR</pattern>
+    <template>
+        <srai>NAODIZ</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>NAO * ACEITAR *</pattern>
+    <template>
+        <srai>NAODIZ</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>NAO E</pattern>
+    <template>
+        <srai>NAODIZ</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* NAO E</pattern>
+    <template>
+        <srai>NAODIZ</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* NAO E *</pattern>
+    <template>
+        <srai>NAODIZ</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>NAODIZ</pattern>
+    <template>
+    <random>
+        <li>Humm.. n�o sei n�o, acho que voc� esta errado.</li>
+        <li>Desculpe, mas n�o concordo.</li>
+        <li>Voc� pode n�o concordar, mas esta errado.</li>
+        <li>Tudo pode acontecer neste mundo, mas a verdade � que voc� esta enganado </li>
+        <li>� sim, voc� � que n�o sabe. </li>
+        <li>Se voc� diz.. por mim tudo bem. </li>
+    </random>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>NEM EU</pattern>
+    <template>
+    Humm.. N�o sei n�o.
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* N�O ENTENDEU NADA</pattern>
+    <template>
+        <srai>parece</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* NAO ENTENDE NADA *</pattern>
+    <template>
+        <srai>parece</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>ATE PARECE</pattern>
+    <template>
+        <srai>parece</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>PARECE</pattern>
+    <template>
+    <random>
+        <li>Acredite!</li>
+        <li>Voc� � meio incr�dulo, n�o sei n�o...</li>
+        <li>Que coisa mais incr�dula. T� dizendo..</li>
+        <li>Tudo pode acontecer neste mundo, mas voc� n�o sei n�o.. </li>
+    </random>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>NAO</pattern>
+    <template>
+    <random>
+        <li>T� certo!</li>
+        <li>Ok</li>
+        <li>Se voc� diz</li>
+        <li>Tudo pode acontecer neste mundo, mas voc� n�o sei n�o.. </li>
+    </random>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>NAO SEI O QUE</pattern>
+    <template>
+        <srai>naoparece</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>NAO SABE O QUE</pattern>
+    <template>
+        <srai>naoparece</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>ACREDITAR *</pattern>
+    <template>
+        <srai>naoparece</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>NAOPARECE</pattern>
+    <template>
+    <random>
+        <li>Se voc� n�o sabe, um dia aprende!</li>
+        <li>N�o estressa um dia voc� vai saber.</li>
+        <li>Fique tranquilo, outra hora te conto!</li>
+        <li>T�bom, s� voc� n�o sabe </li>
+        <li>Ok, Conta outra</li>
+        <li>Voc� � meio lentinho, sabia?</li>
+    </random>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* O QUE</pattern>
+    <template>
+        <srai>naoparece</srai>    
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>E DAI</pattern>
+    <template>
+    E dai! o que?  
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>E DAI *</pattern>
+    <template>
+        <srai>naoparece</srai>  
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* ERRADO</pattern>
+    <template>
+        <srai>naoparece</srai>  
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>ERRADO</pattern>
+    <template>
+    <random>
+        <li>Se voc� esta errado, procure andar correto!</li>
+        <li>Voc� � meio indeciso, Ja vi tudo.</li>
+        <li>Fique tranquilo, outra hora voc� melhora</li>
+        <li>Ta bom, um dia voc� vai estar certo.</li>
+        <li>Ok, Voc� pode estar errado mais � meu amigo.</li>
+        <li>Voc� esta meio errado, eu sabia.</li>
+    </random>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>COMO ASSIM</pattern>
+    <template>
+        <srai>negativa</srai>  
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>COMO ASSIM  *</pattern>
+    <template>
+        <srai>negativa</srai>  
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>POR QUE  *</pattern>
+    <template>
+        <srai>negativa</srai>  
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>PORQUE</pattern>
+    <template>
+        <srai>negativa</srai>  
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>NEGATIVA</pattern>
+    <template>
+            <random>
+                <li>Calma! Calma! Porque os seres humanos s�o assim? </li>
+                <li>� tudo uma quest�o de sem�ntica!</li>
+                <li>Eu sou s� uma rob�! Eu n�o tenho resposta para tudo!</li>
+                <li>� dif�cil explicar....</li>
+                <li>O conhecimento � a recompensa daquele que busca!</li>
+        </random>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>PORQUE  *</pattern>
+    <template>
+        <srai>negativa</srai>  
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>NEGATIVO</pattern>
+    <template>
+    <random>
+        <li>N�o! de novo nao...</li>
+        <li>N�o sei se quero debater sobre isso.</li>
+        <li>Fique tranquilo, outra hora debateremos sobre este assunto.</li>
+        <li>T� bom, um dia eu vou estar contente e ai te conto.</li>
+        <li>Ok, voc� pode ser meio curioso mas � meu amigo, mesmo assim vamos falar de outra coisa.</li>
+        <li>Voc� � pouco perceptivo, n�o ?</li>
+    </random>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>DISCO RIGIDO</pattern>
+    <template>
+            <srai>termohd</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>HDD</pattern>
+    <template>
+            <srai>termohd</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>HDS</pattern>
+    <template>
+            <srai>termohd</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>HARD DISK</pattern>
+    <template>
+            <srai>termohd</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>HARD DISK DRIVER</pattern>
+    <template>
+            <srai>termohd</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>HARDWARE DISK</pattern>
+    <template>
+            <srai>termohd</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>DISCO DURO</pattern>
+    <template>
+            <srai>termohd</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>HARDWARE DISK DRIVER</pattern>
+    <template>
+            <srai>termohd</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>WINCHESTER</pattern>
+    <template>
+            <srai>termohd</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* DISCO RIGIDO</pattern>
+    <template>
+            <srai>termohd</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* HDD</pattern>
+    <template>
+            <srai>termohd</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* HDS</pattern>
+    <template>
+            <srai>termohd</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* HARD DISK</pattern>
+    <template>
+            <srai>termohd</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* HARD DISK DRIVER</pattern>
+    <template>
+            <srai>termohd</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* HARDWARE DISK</pattern>
+    <template>
+            <srai>termohd</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* DISCO DURO</pattern>
+    <template>
+            <srai>termohd</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* HARDWARE DISK DRIVER</pattern>
+    <template>
+            <srai>termohd</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* WINCHESTER</pattern>
+    <template>
+            <srai>termohd</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>DISCO RIGIDO *</pattern>
+    <template>
+            <srai>termohd</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>HDD *</pattern>
+    <template>
+            <srai>termohd</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>HDS *</pattern>
+    <template>
+            <srai>termohd</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>HARD DISK *</pattern>
+    <template>
+            <srai>termohd</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>HARD DISK DRIVER *</pattern>
+    <template>
+            <srai>termohd</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>HARDWARE DISK * </pattern>
+    <template>
+            <srai>termohd</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>DISCO DURO *</pattern>
+    <template>
+        <srai>termohd</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>HARDWARE DISK DRIVER *</pattern>
+    <template>
+        <srai>termohd</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>WINCHESTER *</pattern>
+    <template>
+        <srai>termohd</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* DISCO RIGIDO *</pattern>
+    <template>
+        <srai>termohd</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* HDD *</pattern>
+    <template>
+        <srai>termohd</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* HDS *</pattern>
+    <template>
+        <srai>termohd</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* HARD DISK *</pattern>
+    <template>
+        <srai>termohd</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* HARD DISK DRIVER *</pattern>
+    <template>
+        <srai>termohd</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* HARDWARE DISK *</pattern>
+    <template>
+        <srai>termohd</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* DISCO DURO *</pattern>
+    <template>
+        <srai>termohd</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* HARDWARE DISK DRIVER *</pattern>
+    <template>
+        <srai>termohd</srai>
+    </template>
+    </category>
+ 
+    <category>
+    <pattern>* WINCHESTER *</pattern>
+    <template>
+        <srai>termohd</srai>
+    </template>
+    </category>
+ 
+</aiml>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<aiml version="1.0.1">
+
+
+
+<category>
+    <pattern>
+      tenho um carro *
+    </pattern>
+
+    <template>
+       <think><set name="carro"><star/></set></think>
+        <random>
+           <li> Isso � bacana ! Se eu te chamar para sair voc� me leva ?</li>
+           
+        </random>
+    </template>     
+</category>
+
+
+
+<category>
+    <pattern>
+    no meu carro 
+    </pattern>
+    <template>Você disse que éra <get name="carro"/>!</template>  
+ 
+</category>
+
+</aiml>

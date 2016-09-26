@@ -2,10 +2,10 @@
 import aiml
 import os
 
-os.chdir('app-root/data/')
+os.chdir('static/')
 
 ai = aiml.Kernel() # inicialização
-ai.learn('*') # lê o arquivo principal da AIML e faz referências aos outros
+ai.learn('*.aiml') # lê o arquivo principal da AIML e faz referências aos outros
 
 def responde_mensagem(mensagem):
 	print mensagem
