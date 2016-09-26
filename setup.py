@@ -1,12 +1,10 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
 from setuptools import setup
 
-setup(
-    name='FalaJobApp',
-    version='0.1.35',
-    author='Samuel Gonçalves Cunha e Rai Sena Gonçalves',
-    author_email='samukasaww@live.com',
-    install_requires=['Flask','aiml'],
-    )
+setup(name='YourAppName',
+      version='1.0',
+      description='OpenShift App',
+      author='Your Name',
+      author_email='example@example.com',
+      url='https://www.python.org/community/sigs/current/distutils-sig',
+      install_requires=['Flask>=0.7.2', 'MarkupSafe'],
+      )

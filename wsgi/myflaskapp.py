@@ -32,4 +32,4 @@ def teste():
 	return 'Ops, houve um erro no servidor. Em breve estaremos funcionando novamente.'
 
 if __name__ == "__main__":
-	app.run(debug=True)
+	app.run()
