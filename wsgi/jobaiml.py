@@ -11,6 +11,7 @@ else:
     #ai.saveBrain("bot_brain.brn")
 
 def responde_mensagem(mensagem):
+	global ai
 	print mensagem
 	resposta = ai.respond(mensagem)
 	print resposta
