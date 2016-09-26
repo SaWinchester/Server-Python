@@ -21,7 +21,7 @@ except IOError:
   pass
 
 # Get the environment information we need to start the server
-ip = os.environ['OPENSHIFT_PYTHON_IP']
-port = int(os.environ['OPENSHIFT_PYTHON_PORT'])
+#ip = os.environ['OPENSHIFT_PYTHON_IP']
+#port = int(os.environ['OPENSHIFT_PYTHON_PORT'])
 
-run(ip, port,True)
+run(True)
