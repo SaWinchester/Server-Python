@@ -1,8 +1,11 @@
 # coding: utf-8
 import aiml
+import os
+
+os.chdir('$OPENSHIFT_DATA_DIR')
 
 ai = aiml.Kernel() # inicialização
-ai.learn('$OPENSHIFT_DATA_DIR/*') # lê o arquivo principal da AIML e faz referências aos outros
+ai.learn('*') # lê o arquivo principal da AIML e faz referências aos outros
 
 def responde_mensagem(mensagem):
 	print mensagem
