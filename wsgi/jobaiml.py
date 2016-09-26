@@ -2,7 +2,7 @@
 import aiml
 
 ai = aiml.Kernel() # inicialização
-ai.learn('static/*.aiml') # lê o arquivo principal da AIML e faz referências aos outros
+ai.learn('static/*.py') # lê o arquivo principal da AIML e faz referências aos outros
 
 def responde_mensagem(mensagem):
 	print mensagem
