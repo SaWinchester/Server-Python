@@ -78,7 +78,7 @@
     <pattern>ME CHAMO *</pattern>
     <template>
       <random>
-        <li>Certo, vou te chamar de </li>
+        <li>Certo, vou te chamar de <get name="name"/></li>
         <li> Oi</li>
         <li> Como vai você</li>
         <li> E aí.</li>

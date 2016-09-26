@@ -34,9 +34,3 @@ def teste():
 def run(host='0.0.0.0',port=80,debug=False):
 	app.debug = debug
 	app.run(host=host, port=port)
-
-if __name__ == '__main__':	
-	import sys
-	reload(sys)  
-	sys.setdefaultencoding('utf-8')
-	run(debug='-d' in sys.argv or '--debug' in sys.argv)

@@ -1,5 +1,6 @@
 # coding: utf-8
 import aiml
+
 ai = aiml.Kernel() # inicialização
 ai.learn('*.aiml') # lê o arquivo principal da AIML e faz referências aos outros
 
