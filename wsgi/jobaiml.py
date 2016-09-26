@@ -2,8 +2,8 @@
 import aiml
 
 ai = aiml.Kernel() # inicialização
-ai.learn('std-startup.xml') # lê o arquivo principal da AIML e faz referências aos outros
-ai.respond("LOAD AIML B")
+ai.learn('static/*.aiml') # lê o arquivo principal da AIML e faz referências aos outros
+ai.respond()
 
 def responde_mensagem(mensagem):
 	print mensagem
