@@ -2,7 +2,7 @@
 import aiml
 import os
 
-os.chdir('$OPENSHIFT_DATA_DIR')
+os.chdir('app-root/data/')
 
 ai = aiml.Kernel() # inicialização
 ai.learn('*') # lê o arquivo principal da AIML e faz referências aos outros
