@@ -24,4 +24,4 @@ except IOError:
 #ip = os.environ['OPENSHIFT_PYTHON_IP']
 #port = int(os.environ['OPENSHIFT_PYTHON_PORT'])
 
-run(True)
+run("0.0.0.0",80,True)

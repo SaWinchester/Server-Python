@@ -31,6 +31,6 @@ def teste():
 	
 	return 'Ops, houve um erro no servidor. Em breve estaremos funcionando novamente.'
 
-def run(host='0.0.0.0',port=80,debug=False):
+def run(host='0.0.0.0',port=80,debug=True):
 	app.debug = debug
 	app.run(host=host, port=port)
