@@ -1,8 +1,14 @@
 # coding: utf-8
 import aiml
+import os
 
 ai = aiml.Kernel() # inicialização
-ai.learn('static/*.py') # lê o arquivo principal da AIML e faz referências aos outros
+
+if os.path.isfile("bot_brain.brn"):
+    ai.bootstrap(brainFile = "bot_brain.brn")
+else:
+    ai.bootstrap(learnFiles = "std-startup.xml", commands = "load aiml b")
+    ai.saveBrain("bot_brain.brn")
 
 def responde_mensagem(mensagem):
 	print mensagem
