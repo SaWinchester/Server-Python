@@ -16,7 +16,6 @@ def index():
 @app.route('/primeiraconexao', methods=['GET'])
 def primera_conexao():
 	id_conexao_job = gera_id_job()
-	print id_conexao_job
 	return json.dumps({"mensagem":u"Olá, me chamo Job. É estou aqui para conversar com você. Você pode me pedir: Piadas, Cantadas, Ditados. É so escrever que respondo...😎"})
 
 @app.route('/mensagem',methods=['PUT'])
@@ -25,7 +24,6 @@ def mensagem():
 	try:
 		jsonData = json.loads(request.data)
 		texto = jsonData['mensagem']
-		print texto
 		if not texto.strip().upper().find(tempo):
 			return json.dumps({"mensagem":temp_api.obtem_temperatura(texto)})
 		return json.dumps({"mensagem":responde_mensagem(texto)})
