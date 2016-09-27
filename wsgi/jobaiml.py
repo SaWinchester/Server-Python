@@ -3,8 +3,8 @@ import aiml
 import os
 import random
 
-#os.chdir('app-root/data/')
-os.chdir('static/')
+os.chdir('app-root/data/')
+#os.chdir('static/')
 
 ai = aiml.Kernel() # inicialização
 ai.learn('*.aiml') # lê o arquivo principal da AIML e faz referências aos outros
