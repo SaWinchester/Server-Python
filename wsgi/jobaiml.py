@@ -1,17 +1,26 @@
 # coding: utf-8
 import aiml
 import os
-
-os.chdir('app-root/data/')
+import random 
+#os.chdir('app-root/data/')
+os.chdir('static/')
 
 ai = aiml.Kernel() # inicialização
 ai.learn('*.aiml') # lê o arquivo principal da AIML e faz referências aos outros
 
+if os.path.isfile("bot_brain.brn"):
+    ai.bootstrap(brainFile = "bot_brain.brn")
+else:
+    ai.bootstrap(learnFiles = "std-startup.xml", commands = "load aiml b")
+    ai.saveBrain("bot_brain.brn")
+
 def responde_mensagem(mensagem):
-	print mensagem
 	resposta = ai.respond(mensagem)
-	print resposta
 	if resposta == '':
 		return "Eu realmente não compreendo"
 	else:
 		return resposta
+
+def gera_id_job():
+	sessionId = int(random.randint(1,100000000000))
+	return sessionId
