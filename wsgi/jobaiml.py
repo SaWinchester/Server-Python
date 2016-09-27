@@ -7,6 +7,7 @@ os.chdir('app-root/data/')
 #os.chdir('static/')
 
 ai = aiml.Kernel() # inicialização
+inicializa_aiml()
 
 def inicializa_aiml():
 	if os.path.isfile("bot_brain.brn"):
