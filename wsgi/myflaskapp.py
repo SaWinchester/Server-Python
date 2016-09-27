@@ -20,7 +20,6 @@ def primera_conexao():
 
 @app.route('/mensagem',methods=['PUT'])
 def mensagem():
-	
 	try:
 		jsonData = json.loads(request.data)
 		texto = jsonData['mensagem']
@@ -29,7 +28,6 @@ def mensagem():
 		return json.dumps({"mensagem":responde_mensagem(texto)})
 	except Exception as e:
 		raise e
-	
 	return json.dumps({'mensagem':u'Ops, houve um erro no servidor. Em breve estaremos funcionando novamente.'})
 
 if __name__ == "__main__":
