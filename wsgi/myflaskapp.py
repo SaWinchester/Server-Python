@@ -1,7 +1,7 @@
 #coding: utf-8
 
 from flask import Flask, Response, request
-from jobaiml import responde_mensagem, gera_id_job
+from jobaiml import *
 import json, temp_api
 import sys
 app = Flask(__name__)
@@ -37,4 +37,5 @@ def mensagem():
 if __name__ == "__main__":
 	reload(sys)  
 	sys.setdefaultencoding('utf-8')
+	inicializa_aiml()
 	app.run()
