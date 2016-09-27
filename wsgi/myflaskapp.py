@@ -37,5 +37,4 @@ def mensagem():
 if __name__ == "__main__":
 	reload(sys)  
 	sys.setdefaultencoding('utf-8')
-	inicializa_aiml()
 	app.run()
