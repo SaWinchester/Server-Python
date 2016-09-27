@@ -7,7 +7,13 @@ os.chdir('app-root/data/')
 #os.chdir('static/')
 
 ai = aiml.Kernel() # inicialização
-ai.learn('*.aiml') # lê o arquivo principal da AIML e faz referências aos outros
+
+def inicializa_aiml():
+	if os.path.isfile("bot_brain.brn"):
+		ai.bootstrap(brainFile = "bot_brain.brn")
+	else:
+		ai.bootstrap(learnFiles = "std-startup.xml", commands = "load aiml b")
+		ai.saveBrain("bot_brain.brn")
 
 def responde_mensagem(mensagem):
 	resposta = ai.respond(mensagem)
