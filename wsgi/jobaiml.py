@@ -2,7 +2,7 @@
 import aiml
 import os
 import random 
-os.chdir('app-root/data/')
+os.chdir('app-root/data')
 #os.chdir('static/')
 
 ai = aiml.Kernel() # inicialização
